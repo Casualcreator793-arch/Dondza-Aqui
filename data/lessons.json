@@ -1,0 +1,802 @@
+{
+ "versao": 1,
+ "modulos": [
+  {
+   "id": "m1",
+   "titulo": "Compreensão e Tipologia Textual",
+   "fase": 1,
+   "disponivel": true,
+   "topicos": [
+    {
+     "id": "m1-t1",
+     "titulo": "Interpretação literal e inferencial",
+     "minutos": 5,
+     "aula": [
+      "## Dois níveis de leitura",
+      "A **leitura literal** consiste em encontrar no texto aquilo que está dito de forma explícita: nomes, datas, números, factos. A resposta está escrita no texto.",
+      "A **leitura inferencial** pede que se descubra o que o texto não diz directamente, mas sugere. Parte-se de pistas (palavras, factos, atitudes) e chega-se a uma conclusão lógica.",
+      "> Exemplo: «Em Maputo, choveu toda a noite; de manhã, as ruas estavam alagadas.» Literal: choveu toda a noite. Inferência: a chuva foi a causa do alagamento.",
+      "## Como responder bem",
+      "- Leia primeiro a pergunta e depois volte ao texto à procura da evidência.",
+      "- Na leitura literal, confirme a informação no texto; na inferencial, apoie-se em pistas do texto e não na opinião pessoal.",
+      "- Desconfie de alternativas com palavras absolutas como «apenas», «sempre», «exclusivamente» ou «nunca».",
+      "- Elimine as alternativas que contradizem o texto ou que dizem algo que o texto não permite concluir."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "«Em 2020, a escola de Inhambane recebeu 200 livros novos, mas só metade chegou às turmas do 8.º ano.» Quantos livros chegaram às turmas do 8.º ano?",
+       "opcoes": [
+        "200",
+        "100",
+        "Nenhum",
+        "50"
+       ],
+       "correta": 1,
+       "explicacao": "Só metade dos 200 livros chegou às turmas: 100. A informação vem do texto.",
+       "id": "m1-t1-e1"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "A leitura literal limita-se à informação dita de forma explícita no texto.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "É isso mesmo: na leitura literal a resposta está escrita no texto.",
+       "id": "m1-t1-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«De manhã, a Ana saiu de casa de guarda-chuva e botas.» O que se pode inferir?",
+       "opcoes": [
+        "Estava a chover ou ia chover",
+        "A Ana ia à praia",
+        "A Ana estava doente",
+        "Era noite"
+       ],
+       "correta": 0,
+       "explicacao": "Guarda-chuva e botas são pistas de chuva. O texto não o diz, mas sugere-o.",
+       "id": "m1-t1-e3"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "Numa pergunta inferencial, a resposta aparece sempre escrita palavra por palavra no texto.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 1,
+       "explicacao": "A resposta inferencial deduz-se de pistas; não está escrita de forma explícita.",
+       "id": "m1-t1-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "Qual destas perguntas exige leitura inferencial?",
+       "opcoes": [
+        "Quem escreveu o texto?",
+        "Quantos anos tem a personagem, segundo o texto?",
+        "Porque é que a personagem ficou em silêncio depois da notícia?",
+        "Em que cidade decorre a acção, segundo o texto?"
+       ],
+       "correta": 2,
+       "explicacao": "As razões de um comportamento raramente estão ditas; deduzem-se das pistas.",
+       "id": "m1-t1-e5"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "Ao responder a uma pergunta de interpretação, deve-se:",
+       "opcoes": [
+        "Usar apenas a opinião pessoal",
+        "Voltar ao texto e procurar a evidência",
+        "Escolher a alternativa mais longa",
+        "Responder sem reler o texto"
+       ],
+       "correta": 1,
+       "explicacao": "A resposta correcta apoia-se sempre em evidências do texto.",
+       "id": "m1-t1-e6"
+      }
+     ]
+    },
+    {
+     "id": "m1-t2",
+     "titulo": "Tipologia textual e objetivo comunicativo",
+     "minutos": 5,
+     "aula": [
+      "## Quatro tipos de texto",
+      "**Expositivo-explicativo**: informa e explica um assunto com objectividade. Usa dados, definições, causas e consequências, terceira pessoa e presente do indicativo.",
+      "**Argumentativo**: defende uma tese (opinião) com argumentos, para convencer o leitor. Usa conectores como «porque», «portanto», «por isso», e verbos de opinião.",
+      "**Narrativo**: conta uma sequência de acontecimentos vividos por personagens, num tempo e espaço. Domina o pretérito.",
+      "**Descritivo**: caracteriza pessoas, lugares ou objectos, com adjectivos e comparações.",
+      "## Objetivo comunicativo",
+      "É a finalidade do texto: **informar/explicar**, **convencer**, **contar** ou **descrever**. Pergunte-se: o autor quer ensinar, convencer, contar ou mostrar como algo é?",
+      "> Exemplo: um texto com estatísticas sobre a malária, sem tomar partido, é expositivo-explicativo e o seu objectivo é informar."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "Um texto que apresenta dados e explica as causas de um fenómeno, sem tomar posição, é:",
+       "opcoes": [
+        "Narrativo",
+        "Expositivo-explicativo",
+        "Argumentativo",
+        "Descritivo"
+       ],
+       "correta": 1,
+       "explicacao": "Apresentar dados e explicar causas, sem defender opinião, é típico do expositivo-explicativo.",
+       "id": "m1-t2-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "O principal objectivo de um texto argumentativo é:",
+       "opcoes": [
+        "Contar uma história",
+        "Descrever um lugar",
+        "Convencer o leitor de uma tese",
+        "Listar números"
+       ],
+       "correta": 2,
+       "explicacao": "O texto argumentativo defende uma ideia para persuadir.",
+       "id": "m1-t2-e2"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "Num texto narrativo há personagens, tempo, espaço e uma sequência de acções.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "São os elementos centrais da narrativa.",
+       "id": "m1-t2-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Era uma sala ampla, de paredes claras, com janelas altas e cheiro de madeira velha.» Este excerto é:",
+       "opcoes": [
+        "Narrativo",
+        "Argumentativo",
+        "Descritivo",
+        "Expositivo"
+       ],
+       "correta": 2,
+       "explicacao": "Caracteriza um espaço com adjectivos e pormenores: é descritivo.",
+       "id": "m1-t2-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Considero que o ensino deve ser gratuito, pois só assim todos terão oportunidades.» Este excerto é:",
+       "opcoes": [
+        "Argumentativo",
+        "Descritivo",
+        "Narrativo",
+        "Instrucional"
+       ],
+       "correta": 0,
+       "explicacao": "Há uma opinião («considero») apoiada num argumento («pois só assim…»).",
+       "id": "m1-t2-e5"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "É habitual um texto expositivo-explicativo recorrer a opiniões emotivas para convencer o leitor.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 1,
+       "explicacao": "O expositivo privilegia a objectividade; convencer com emoção é próprio da argumentação.",
+       "id": "m1-t2-e6"
+      }
+     ]
+    },
+    {
+     "id": "m1-t3",
+     "titulo": "Estratégias discursivas e macroestrutura",
+     "minutos": 5,
+     "aula": [
+      "## Macroestrutura",
+      "A macroestrutura é a organização global do texto: **introdução** (apresenta o tema), **desenvolvimento** (aprofunda os subtemas) e **conclusão** (sintetiza). Cada parágrafo e cada frase cumprem uma função nessa organização.",
+      "## Funções frequentes de uma frase",
+      "- **Introduzir um subtema**: abre um novo aspecto dentro do mesmo assunto («Outro aspecto importante é…»).",
+      "- **Ampliar ou explicar** uma ideia já apresentada.",
+      "- **Apresentar informação empírica**: dados, estudos, estatísticas que sustentam o que se diz.",
+      "- **Exemplificar**: dar casos concretos.",
+      "- **Sintetizar / concluir**: resume e retoma a ideia central («Em suma…», «O conjunto destes dados demonstra…»).",
+      "## Estratégias discursivas",
+      "Explicação causal (liga causas e consequências), enumeração, exemplificação, definição e comparação. O uso de **percentagens** e números dá **rigor e objectividade** ao discurso.",
+      "> Exemplo: «Adicionalmente, um estudo revelou que 30% das famílias…» fornece informação empírica que apoia a exposição."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "Uma frase iniciada por «Em suma, os dados mostram que…» tem, normalmente, a função de:",
+       "opcoes": [
+        "Introduzir um subtema",
+        "Apresentar um exemplo",
+        "Sintetizar e concluir",
+        "Introduzir ironia"
+       ],
+       "correta": 2,
+       "explicacao": "«Em suma» é marcador de síntese conclusiva.",
+       "id": "m1-t3-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "O uso de percentagens e estatísticas num texto expositivo serve sobretudo para:",
+       "opcoes": [
+        "Criar suspense",
+        "Conferir rigor e objectividade",
+        "Exprimir emoção",
+        "Narrar acontecimentos"
+       ],
+       "correta": 1,
+       "explicacao": "Os números dão exactidão e objectividade.",
+       "id": "m1-t3-e2"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "Uma frase como «Outro aspecto relevante é…» introduz um novo subtema dentro do mesmo tema.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "É um marcador típico de abertura de subtema.",
+       "id": "m1-t3-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Por exemplo, em Nampula, 3 em cada 10 crianças não vão à escola.» Esta frase:",
+       "opcoes": [
+        "Conclui o texto",
+        "Exemplifica com informação empírica",
+        "Muda o tema",
+        "Exprime opinião pessoal"
+       ],
+       "correta": 1,
+       "explicacao": "Apresenta um caso concreto com dados que apoiam a ideia.",
+       "id": "m1-t3-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "A estratégia discursiva que liga um problema às suas causas e consequências chama-se:",
+       "opcoes": [
+        "Descrição literária",
+        "Explicação causal",
+        "Enumeração de memórias",
+        "Narração"
+       ],
+       "correta": 1,
+       "explicacao": "A explicação causal estabelece relações causa-efeito.",
+       "id": "m1-t3-e5"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "A conclusão de um texto serve para introduzir dados completamente novos.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 1,
+       "explicacao": "A conclusão retoma e sintetiza o que já foi dito.",
+       "id": "m1-t3-e6"
+      }
+     ]
+    },
+    {
+     "id": "m1-t4",
+     "titulo": "Relações discursivas e ordenação de parágrafos",
+     "minutos": 5,
+     "aula": [
+      "## Relações entre frases",
+      "- **Adição**: e, também, além disso, igualmente, adicionalmente.",
+      "- **Contraste/oposição**: mas, porém, contudo, no entanto, todavia.",
+      "- **Causa-efeito**: porque, pois, por isso, logo, consequentemente, daí que.",
+      "- **Condição**: se, caso, desde que, a menos que.",
+      "> Exemplo: «Estudou muito, por isso passou.» A 2.ª ideia é o efeito da 1.ª (causa-efeito).",
+      "## Ordenar parágrafos",
+      "1. Procure o parágrafo que **apresenta o tema geral**: é a abertura.",
+      "2. Procure palavras que **retomam** o parágrafo anterior: «por isso», «assim», «hoje», pronomes como «estas», «esse».",
+      "3. Perguntas vêm **antes** das frases que falam das respostas («com estas perguntas respondidas…»).",
+      "4. O parágrafo que **conclui** ou fecha o raciocínio vai para o fim.",
+      "Depois de escolher uma ordem, leia-a de seguida para verificar se faz sentido."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "«Estudou muito, por isso passou no exame.» A relação entre as duas ideias é de:",
+       "opcoes": [
+        "Adição",
+        "Contraste",
+        "Causa-efeito",
+        "Condição"
+       ],
+       "correta": 2,
+       "explicacao": "«Por isso» liga uma causa ao seu efeito.",
+       "id": "m1-t4-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Gosta de matemática; no entanto, prefere português.» A relação é de:",
+       "opcoes": [
+        "Contraste",
+        "Adição",
+        "Causa",
+        "Finalidade"
+       ],
+       "correta": 0,
+       "explicacao": "«No entanto» introduz oposição.",
+       "id": "m1-t4-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Se chover, o jogo será adiado.» A relação é de:",
+       "opcoes": [
+        "Adição",
+        "Condição",
+        "Contraste",
+        "Comparação"
+       ],
+       "correta": 1,
+       "explicacao": "«Se» introduz uma condição.",
+       "id": "m1-t4-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Além disso» exprime:",
+       "opcoes": [
+        "Oposição",
+        "Conclusão",
+        "Adição",
+        "Condição"
+       ],
+       "correta": 2,
+       "explicacao": "É um conector de adição.",
+       "id": "m1-t4-e4"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "Num conjunto de parágrafos, o que apresenta o tema geral costuma vir antes dos que desenvolvem pormenores.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "A introdução do tema abre o texto.",
+       "id": "m1-t4-e5"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "Um parágrafo que começa por «Apenas com estas perguntas respondidas…» deve vir:",
+       "opcoes": [
+        "Antes das perguntas",
+        "Depois das perguntas",
+        "No início do texto",
+        "Em qualquer lugar"
+       ],
+       "correta": 1,
+       "explicacao": "«Estas perguntas» retoma algo já apresentado, por isso vem depois.",
+       "id": "m1-t4-e6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "titulo": "Funcionamento da Língua",
+   "fase": 1,
+   "disponivel": true,
+   "topicos": [
+    {
+     "id": "m2-t1",
+     "titulo": "Funções sintáticas e transitividade verbal",
+     "minutos": 5,
+     "aula": [
+      "## Funções sintáticas",
+      "- **Sujeito**: aquilo de que se diz algo; concorda com o verbo.",
+      "- **Predicativo do sujeito**: atribui uma característica ao sujeito, com verbos copulativos (ser, estar, parecer, ficar, permanecer).",
+      "- **Complemento directo**: completa o verbo sem preposição.",
+      "- **Complemento indirecto**: completa o verbo com preposição «a» ou «para», normalmente uma pessoa.",
+      "> A chuva alagou **as ruas** (CD). O Carlos é **professor** (predicativo do sujeito). Dei o livro **ao Pedro** (CI).",
+      "## Transitividade verbal",
+      "- **Transitivo directo**: pede complemento directo («Comprei pão»).",
+      "- **Transitivo indirecto**: pede complemento com preposição («Gosto de música»).",
+      "- **Bitransitivo**: pede os dois («Entreguei o teste ao aluno»).",
+      "- **Intransitivo**: não pede complemento («A criança dormiu»).",
+      "- **Copulativo**: liga o sujeito ao predicativo («Ele está cansado»).",
+      "Dica: pergunte «o quê?» (directo) e «a quem?» (indirecto) ao verbo."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "«A chuva alagou as ruas.» A expressão «as ruas» é:",
+       "opcoes": [
+        "Sujeito",
+        "Complemento directo",
+        "Predicativo do sujeito",
+        "Complemento indirecto"
+       ],
+       "correta": 1,
+       "explicacao": "Responde a «alagou o quê?», sem preposição.",
+       "id": "m2-t1-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«O Carlos é professor.» A palavra «professor» é:",
+       "opcoes": [
+        "Complemento directo",
+        "Sujeito",
+        "Predicativo do sujeito",
+        "Complemento indirecto"
+       ],
+       "correta": 2,
+       "explicacao": "«Ser» é verbo copulativo e «professor» caracteriza o sujeito.",
+       "id": "m2-t1-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«A professora entregou os testes aos alunos.» O verbo «entregou» é:",
+       "opcoes": [
+        "Intransitivo",
+        "Transitivo directo",
+        "Copulativo",
+        "Bitransitivo"
+       ],
+       "correta": 3,
+       "explicacao": "Tem complemento directo («os testes») e indirecto («aos alunos»).",
+       "id": "m2-t1-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«A criança dormiu.» O verbo «dormiu» é:",
+       "opcoes": [
+        "Intransitivo",
+        "Bitransitivo",
+        "Transitivo directo",
+        "Copulativo"
+       ],
+       "correta": 0,
+       "explicacao": "Não pede complemento.",
+       "id": "m2-t1-e4"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "O sujeito concorda em número e pessoa com o verbo.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "É a regra básica da concordância verbal.",
+       "id": "m2-t1-e5"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«O director ofereceu um livro à aluna.» A expressão «à aluna» é:",
+       "opcoes": [
+        "Complemento directo",
+        "Sujeito",
+        "Predicativo do sujeito",
+        "Complemento indirecto"
+       ],
+       "correta": 3,
+       "explicacao": "Responde a «a quem?», com a preposição «a».",
+       "id": "m2-t1-e6"
+      }
+     ]
+    },
+    {
+     "id": "m2-t2",
+     "titulo": "Classes de palavras",
+     "minutos": 5,
+     "aula": [
+      "## Classes principais",
+      "- **Nome**: designa seres, coisas, ideias (casa, saúde).",
+      "- **Adjectivo**: caracteriza o nome (bonito, grave). Varia em género e número.",
+      "- **Determinante**: acompanha o nome (artigos: o, um; demonstrativos: este, esse; possessivos: meu).",
+      "- **Pronome**: substitui o nome (ele, nós, este, quem).",
+      "- **Verbo**: indica acção, estado ou fenómeno.",
+      "- **Advérbio**: modifica verbo, adjectivo ou outro advérbio. É invariável. Pode ser de tempo (já, hoje, tarde), lugar (aqui), modo (bem, rapidamente), intensidade (muito), afirmação e negação.",
+      "- **Preposição**: liga palavras e é invariável (de, em, para, por, com, a).",
+      "- **Conjunção**: liga orações ou palavras (e, mas, porque, embora).",
+      "Atenção: a mesma palavra muda de classe consoante a função. «Este» é determinante antes de um nome («este livro») e pronome quando está sozinho («Este é meu»).",
+      "Truque: veja o que a palavra faz na frase, não apenas como ela é."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "«Ele chegou tarde.» A palavra «tarde» é:",
+       "opcoes": [
+        "Nome",
+        "Adjectivo",
+        "Advérbio de tempo",
+        "Preposição"
+       ],
+       "correta": 2,
+       "explicacao": "Modifica o verbo «chegou» e indica tempo.",
+       "id": "m2-t2-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Este livro é meu.» A palavra «Este» é:",
+       "opcoes": [
+        "Pronome pessoal",
+        "Determinante demonstrativo",
+        "Advérbio",
+        "Conjunção"
+       ],
+       "correta": 1,
+       "explicacao": "Acompanha o nome «livro».",
+       "id": "m2-t2-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Comprei pão e leite.» A palavra «e» é:",
+       "opcoes": [
+        "Preposição",
+        "Advérbio",
+        "Conjunção coordenativa copulativa",
+        "Determinante"
+       ],
+       "correta": 2,
+       "explicacao": "Liga elementos da mesma natureza, somando-os.",
+       "id": "m2-t2-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Vivo em Maputo.» A palavra «em» é:",
+       "opcoes": [
+        "Conjunção",
+        "Preposição",
+        "Advérbio",
+        "Pronome"
+       ],
+       "correta": 1,
+       "explicacao": "Liga o verbo ao nome e indica lugar.",
+       "id": "m2-t2-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "Qual das palavras é um adjectivo?",
+       "opcoes": [
+        "rapidamente",
+        "bonito",
+        "porque",
+        "nós"
+       ],
+       "correta": 1,
+       "explicacao": "«Bonito» caracteriza um nome e varia em género e número.",
+       "id": "m2-t2-e5"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "Os advérbios variam em género e número, tal como os adjectivos.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 1,
+       "explicacao": "Os advérbios são invariáveis.",
+       "id": "m2-t2-e6"
+      }
+     ]
+    },
+    {
+     "id": "m2-t3",
+     "titulo": "Orações, conjunções e preposições",
+     "minutos": 5,
+     "aula": [
+      "## Orações coordenadas",
+      "Ligam orações do mesmo nível: **copulativas** (e, nem), **adversativas** (mas, porém, contudo), **disjuntivas** (ou), **conclusivas** (logo, portanto), **explicativas** (pois, porque).",
+      "## Orações subordinadas adverbiais",
+      "- **Causais**: indicam a causa (porque, visto que, já que).",
+      "- **Concessivas**: indicam uma cedência, algo que não impede o resultado (embora, ainda que, apesar de). Pedem normalmente o conjuntivo.",
+      "- **Consecutivas**: indicam a consequência (tão… que, de modo que).",
+      "- **Condicionais**: indicam condição (se, caso).",
+      "- **Finais**: indicam finalidade (para que).",
+      "> «Embora estivesse cansado, continuou a estudar.» (concessiva: o cansaço não o impediu.)",
+      "## Valores das preposições",
+      "**para** (finalidade, destino), **por** (causa, meio), **com** (companhia, instrumento), **de** (origem, posse, matéria), **em** (lugar, tempo).",
+      "Os advérbios como «igualmente» e «também» exprimem **adição**."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "«Embora estivesse cansado, continuou a estudar.» A oração introduzida por «embora» é:",
+       "opcoes": [
+        "Causal",
+        "Concessiva",
+        "Consecutiva",
+        "Final"
+       ],
+       "correta": 1,
+       "explicacao": "Indica algo que não impediu o resultado.",
+       "id": "m2-t3-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Faltou à aula porque estava doente.» A oração iniciada por «porque» é:",
+       "opcoes": [
+        "Causal",
+        "Concessiva",
+        "Condicional",
+        "Consecutiva"
+       ],
+       "correta": 0,
+       "explicacao": "Indica a causa da falta.",
+       "id": "m2-t3-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Estudou tanto que passou com distinção.» A oração iniciada por «que» é:",
+       "opcoes": [
+        "Final",
+        "Causal",
+        "Concessiva",
+        "Consecutiva"
+       ],
+       "correta": 3,
+       "explicacao": "«Tanto… que» indica consequência.",
+       "id": "m2-t3-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Cheguei cedo, mas a aula já tinha começado.» A conjunção «mas» exprime:",
+       "opcoes": [
+        "Adição",
+        "Oposição",
+        "Causa",
+        "Condição"
+       ],
+       "correta": 1,
+       "explicacao": "«Mas» é adversativa.",
+       "id": "m2-t3-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Estudo para passar no exame.» A preposição «para» indica:",
+       "opcoes": [
+        "Origem",
+        "Causa",
+        "Finalidade",
+        "Companhia"
+       ],
+       "correta": 2,
+       "explicacao": "Responde a «com que fim?».",
+       "id": "m2-t3-e5"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "As orações concessivas exprimem uma causa que justifica o facto da oração principal.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 1,
+       "explicacao": "As concessivas indicam uma cedência, não uma causa.",
+       "id": "m2-t3-e6"
+      }
+     ]
+    },
+    {
+     "id": "m2-t4",
+     "titulo": "Concordância e relações entre palavras",
+     "minutos": 5,
+     "aula": [
+      "## Concordância",
+      "O verbo concorda com o **núcleo do sujeito**. «Os alunos chegaram» (plural); «O aluno chegou» (singular). Com expressões como «metade de», «a maioria de» ou «uma parte de» seguidas de plural, a gramática admite concordar com o núcleo ou com o plural; confirme sempre o sentido da frase.",
+      "## Relações de sentido",
+      "- **Sinonímia**: sentido igual ou próximo (casa/lar). Quase sempre são sinónimos parciais.",
+      "- **Antonímia**: sentidos opostos (alto/baixo; quente/frio; vivo/morto).",
+      "- **Hiperonímia**: o hiperónimo é o termo mais geral (fruta) e o hipónimo, o mais específico (manga).",
+      "## Formação de palavras",
+      "- **Derivação por prefixação**: prefixo + palavra (des-fazer).",
+      "- **Derivação por sufixação**: palavra + sufixo (feliz → felizmente; açúcar → açucarado).",
+      "- **Parassíntese**: prefixo e sufixo ao mesmo tempo (entardecer).",
+      "- **Composição por justaposição**: duas palavras juntas (guarda-chuva); **por aglutinação**, com perda de sons (planalto).",
+      "> «Florido» deriva de «flor» + sufixo «-ido»: derivação sufixal que forma um adjectivo."
+     ],
+     "exercicios": [
+      {
+       "tipo": "mcq",
+       "enunciado": "Qual das frases respeita a concordância verbal?",
+       "opcoes": [
+        "Os alunos chegou cedo.",
+        "Os alunos chegaram cedo.",
+        "O aluno chegaram cedo.",
+        "Os alunos chegarão-se cedo."
+       ],
+       "correta": 1,
+       "explicacao": "O verbo concorda em número com o sujeito.",
+       "id": "m2-t4-e1"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Alto» e «baixo» são palavras:",
+       "opcoes": [
+        "Sinónimas",
+        "Hiperónimas",
+        "Antónimas",
+        "Homónimas"
+       ],
+       "correta": 2,
+       "explicacao": "Têm sentidos opostos.",
+       "id": "m2-t4-e2"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "«Fruta», em relação a «manga», é um:",
+       "opcoes": [
+        "Hiperónimo",
+        "Hipónimo",
+        "Antónimo",
+        "Sinónimo"
+       ],
+       "correta": 0,
+       "explicacao": "«Fruta» é o termo mais geral.",
+       "id": "m2-t4-e3"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "A palavra «felizmente» forma-se por:",
+       "opcoes": [
+        "Composição por justaposição",
+        "Derivação sufixal",
+        "Parassíntese",
+        "Derivação regressiva"
+       ],
+       "correta": 1,
+       "explicacao": "Feliz + sufixo «-mente».",
+       "id": "m2-t4-e4"
+      },
+      {
+       "tipo": "mcq",
+       "enunciado": "A palavra «guarda-chuva» forma-se por:",
+       "opcoes": [
+        "Prefixação",
+        "Sufixação",
+        "Composição por justaposição",
+        "Parassíntese"
+       ],
+       "correta": 2,
+       "explicacao": "Junta duas palavras com sentido próprio.",
+       "id": "m2-t4-e5"
+      },
+      {
+       "tipo": "vf",
+       "enunciado": "«Casa» e «lar» podem ser considerados sinónimos parciais, pois nem sempre se substituem em todos os contextos.",
+       "opcoes": [
+        "Verdadeiro",
+        "Falso"
+       ],
+       "correta": 0,
+       "explicacao": "A sinonímia total é rara; em geral há diferenças de uso.",
+       "id": "m2-t4-e6"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "titulo": "Literatura Moçambicana e teoria da narrativa",
+   "fase": 2,
+   "disponivel": false,
+   "topicos": []
+  },
+  {
+   "id": "m4",
+   "titulo": "Fonética e Ortografia / Redação",
+   "fase": 3,
+   "disponivel": false,
+   "topicos": []
+  }
+ ],
+ "inicio_por_nivel": {
+  "basico": "m1-t1",
+  "intermedio": "m1-t3",
+  "avancado": "m2-t3"
+ }
+}

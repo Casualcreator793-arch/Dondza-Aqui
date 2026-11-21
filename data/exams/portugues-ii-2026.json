@@ -1,0 +1,757 @@
+{
+ "id": "portugues-ii-2026",
+ "titulo": "Exame de Português II",
+ "ano": 2026,
+ "disciplina": "Língua Portuguesa",
+ "duracao_minutos": 120,
+ "total_questoes": 42,
+ "gabarito_status": "pendente",
+ "cabecalho": {
+  "entidade": "Comissão de Exames Admissão",
+  "titulo": "EXAME DE PORTUGUÊS II - 2026",
+  "instrucoes": [
+   "A prova tem a duração de 120 minutos e contempla 42 questões;",
+   "Confira o seu código de candidatura;",
+   "Para cada questão assinale apenas a alternativa correcta;",
+   "Não é permitido o uso de qualquer dispositivo electrónico (máquina de calcular, telemóveis, etc.)."
+  ]
+ },
+ "partes": [
+  {
+   "id": "compreensao",
+   "nome": "I. COMPREENSÃO DO TEXTO",
+   "de": 1,
+   "ate": 20
+  },
+  {
+   "id": "lingua",
+   "nome": "II. FUNCIONAMENTO DA LÍNGUA",
+   "de": 21,
+   "ate": 32
+  },
+  {
+   "id": "literatura",
+   "nome": "III. LITERATURA",
+   "de": 33,
+   "ate": 41
+  },
+  {
+   "id": "producao",
+   "nome": "PRODUÇÃO ESCRITA",
+   "de": 42,
+   "ate": 42
+  }
+ ],
+ "textos": [
+  {
+   "id": "t1",
+   "titulo": "TEXTO 1",
+   "subtitulo": "Nutrição Infantil em Moçambique",
+   "paragrafos": [
+    "A nutrição infantil em Moçambique apresenta-se como um dos principais desafios de saúde pública, afectando directamente o desenvolvimento humano e a sobrevivência das crianças. A análise da situação evidencia um quadro complexo, no qual a desnutrição e as carências alimentares interagem com factores sociais, económicos e culturais, comprometendo o crescimento infantil e o progresso do país. A desnutrição crónica constitui um problema crítico, afectando 43% das crianças menores de cinco anos, valor considerado muito alto segundo os critérios internacionais. Esta prevalência esconde desigualdades profundas: as zonas rurais e as províncias do norte apresentam níveis superiores aos do sul, e a pobreza, associada à desnutrição materna, surge como um dos principais factores de risco. A desnutrição crónica manifesta-se desde cedo, inclusive nos primeiros meses de vida, quando práticas inadequadas de aleitamento materno exclusivo e infecções frequentes agravam o estado nutricional infantil.",
+    "A desnutrição aguda afecta seis por cento das crianças, com variações geográficas marcantes. Em crianças menores de seis meses o risco é duplicado, revelando a importância do aleitamento exclusivo para evitar complicações graves durante um período em que o leite materno satisfaz plenamente as necessidades nutricionais. A situação nutricional infantil é igualmente influenciada pela elevada taxa de fertilidade — 5,3 filhos por mulher — e pelo curto espaçamento entre gravidezes, factores que reduzem o tempo de recuperação do organismo materno e limitam a capacidade de prestar cuidados adequados a cada criança. A maternidade precoce é outro factor relevante: quase metade das raparigas menores de 19 anos já é mãe, o que aumenta os riscos para as suas crianças e reforça o ciclo de vulnerabilidade nutricional.",
+    "As deficiências de micronutrientes representam igualmente um grave problema de saúde pública. A anemia atinge níveis alarmantes: 64 por cento das crianças entre os 6 e os 59 meses apresentam anemia, com maior incidência entre os 6 e os 18 meses; entre mulheres em idade reprodutiva, a prevalência é de 54 por cento. A carência de ferro, associada à malária e a práticas alimentares inadequadas, constitui uma causa determinante. Menos de metade das crianças de 6 a 24 meses consumiu alimentos ricos em ferro no dia anterior à recolha de dados, o que contribui para o agravamento desta deficiência. No que diz respeito ao iodo, menos de metade dos agregados familiares utiliza sal iodado, situação preocupante dada a sua importância para o desenvolvimento intelectual infantil. Quanto à vitamina A, embora se verifiquem melhorias em relação a anos anteriores, continuam a existir zonas onde a deficiência permanece significativa, apesar de a suplementação alcançar cerca de 75 por cento das crianças.",
+    "No que respeita às práticas de alimentação infantil, os dados revelam indicadores simultaneamente positivos e problemáticos. O início precoce da amamentação ocorre em 77 por cento dos nascimentos, quase todas as crianças beneficiam de aleitamento materno em algum momento e 91 por cento continuam a ser amamentadas no segundo ano de vida. Contudo, o aleitamento materno exclusivo até aos seis meses alcança apenas 43 por cento das crianças, nível insuficiente perante as recomendações internacionais. O uso frequente de biberão, que expõe as crianças a maior risco de infecções, é outra preocupação. Entre crianças expostas ao HIV, cerca de 58 por cento recebeu aleitamento materno exclusivo até aos cinco meses, demonstrando progressos, mas também espaço para melhorias.",
+    "As práticas de alimentação complementar apresentam lacunas significativas. Quarenta por cento das crianças inicia alimentos complementares antes dos seis meses, o que é nutricionalmente inadequado. A diversidade alimentar mínima é atingida por apenas 30 por cento das crianças, e a frequência alimentar adequada por 41 por cento. Em consequência, somente 15 por cento das crianças amamentadas e 6 por cento das não amamentadas alcançam uma dieta mínima aceitável. Estudos regionais mostram que a alimentação complementar é frequentemente baseada apenas em papa de farinha de milho, raramente enriquecida com alimentos que aumentariam o teor energético e nutricional, como óleo ou amendoim. Embora em algumas zonas haja consumo regular de legumes devido à produção local, observa-se baixa inclusão de alimentos de origem animal e introdução tardia de proteínas como carne, peixe, galinha ou ovos. Preocupa igualmente o consumo de alimentos açucarados e bebidas gasosas entre crianças pequenas em determinados contextos.",
+    "A alimentação infantil é ainda influenciada por factores estruturais, como a insegurança alimentar, que afecta directamente a capacidade das famílias de proporcionar refeições frequentes e diversificadas. A pobreza constitui um obstáculo central e, apesar de algumas melhorias ao longo da última década, crises económicas e variações climáticas recentes agravaram a situação. A sazonalidade agrícola, marcada por períodos de escassez entre colheitas, aumenta a prevalência de desnutrição aguda, afectando sobretudo crianças pequenas. Adicionalmente, estudos recentes revelam que mais de metade das famílias moçambicanas não dispõe de recursos económicos suficientes para garantir uma dieta adequada em energia, proteínas e micronutrientes. Mesmo em províncias economicamente mais estáveis, persistem elevadas taxas de desnutrição crónica, o que demonstra que o problema não reside apenas na disponibilidade económica, mas também na insuficiência de conhecimentos sobre práticas de alimentação infantil adequadas e no acesso limitado a alimentos nutritivos.",
+    "O conjunto destas evidências demonstra que a nutrição infantil em Moçambique exige uma abordagem abrangente, que inclua a promoção do aleitamento materno, a melhoria das práticas de alimentação complementar, a educação nutricional e o combate às desigualdades sociais e económicas que condicionam o acesso a alimentos adequados. A situação revelada pela análise reafirma a importância de intervenções coordenadas e sustentadas para garantir o desenvolvimento físico e cognitivo das crianças e, consequentemente, o progresso do país."
+   ],
+   "fonte": "Fonte: Estratégia Nacional de Alimentação Infantil, 2019–2024 (2029). Ministério da Saúde, Departamento de Nutrição (Adaptado)"
+  },
+  {
+   "id": "t2",
+   "titulo": "TEXTO 2 - Excerto da obra Niketche",
+   "subtitulo": "",
+   "paragrafos": [
+    "O Coração do meu Tony é uma constelação de cinco pontos. Um pentágono. Eu, Rami, sou a primeira-dama, a rainha-mãe. Depois vem a Julieta, a enganada, ocupando o posto de segunda dama. Segue-se a Luísa, a desejada, no lugar de terceira dama. A Saly, a apetecida, é a quarta. Finalmente, a Mauá Saulé, a amada, a caçulinha, recém adquirida. O nosso lar é um polígono de seis pontos. É polígamo. Um hexágono amoroso. (CHIZIANE, 2004, p. 58)"
+   ],
+   "fonte": ""
+  }
+ ],
+ "observacoes_revisao": [
+  "Transcrição fiel ao PDF: a grafia original foi mantida (ex.: factores, afectar, Ominisciente, autodigética, Agualuza, Craverinha). Nada foi corrigido no texto das questões.",
+  "Q21 e Q23: o enunciado diz 'sintagma sublinhado' / 'palavra sublinhada', mas o sublinhado não aparece no texto extraído. Confirmar no PDF original qual é o segmento sublinhado e, se possível, indicá-lo.",
+  "Q42: a alternativa D repete o parágrafo (4): '(3), (4), (5), (4), (1).' (conforme o original).",
+  "Q41: no PDF aparece uma letra 'E.' solta imediatamente antes do título 'PRODUÇÃO ESCRITA' (provável numeração de secção). Não foi incluída em nenhuma questão.",
+  "Texto 1, fonte: '2019–2024 (2029)' conforme o original (a data entre parênteses parece incoerente).",
+  "Texto 2: 'primeira-dama' foi reconstituída porque a quebra de linha do PDF separa 'primeira-' de 'dama'. Confirmar no original.",
+  "Texto 2, linha 1 do parágrafo: 'Mauá Saulé, a amada, a caçulinha, recém adquirida' mantido como no PDF.",
+  "Gabarito oficial não fornecido: resposta_correta = null em todas as questões; explicacao = null.",
+  "Q40 está na parte III (Literatura) mas avalia classes de palavras; foi associada ao Módulo 2 (m2-t2), conforme a secção 7.5 do briefing.",
+  "Alternativas: onde o PDF mostra duas alternativas por linha, foram separadas em A, B, C, D, na mesma ordem. A pontuação final de cada alternativa foi mantida como no original (algumas sem ponto final)."
+ ],
+ "questoes": [
+  {
+   "numero": 1,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Em que momento da vida da criança, frequentemente, a desnutrição crónica se manifesta?",
+   "alternativas": {
+    "A": "Após os 2 anos.",
+    "B": "No final da adolescência.",
+    "C": "Nos primeiros meses de vida.",
+    "D": "Durante o período escolar."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 2,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Qual, dos seguintes factores, agrava a situação nutricional devido ao impacto dos cuidados maternos?",
+   "alternativas": {
+    "A": "Alto nível de escolaridade.",
+    "B": "Curto espaçamento entre gravidezes.",
+    "C": "Consumo elevado de frutas.",
+    "D": "Baixa prevalência de doenças infecciosas."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 3,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "A deficiência de ferro nas crianças é agravada principalmente por:",
+   "alternativas": {
+    "A": "Consumo elevado de alimentos ricos em vitamina A.",
+    "B": "Baixa ingestão de alimentos ricos em ferro.",
+    "C": "Exercício físico insuficiente.",
+    "D": "Excesso de hidratos de carbono."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 4,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "A suplementação de vitamina A atinge, aproximadamente:",
+   "alternativas": {
+    "A": "10% das crianças.",
+    "B": "75% das crianças.",
+    "C": "2% das crianças.",
+    "D": "50% das crianças."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 5,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Qual das seguintes práticas constitui uma preocupação identificada no texto?",
+   "alternativas": {
+    "A": "Aleitamento materno continuado até 2 anos.",
+    "B": "Uso frequente do biberão.",
+    "C": "Consumo regular de legumes.",
+    "D": "Enriquecimento das papas com amendoim."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 6,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Quantas crianças iniciam a alimentação complementar antes do recomendado?",
+   "alternativas": {
+    "A": "Cerca de 5%",
+    "B": "Cerca de 20%",
+    "C": "Cerca de 40%",
+    "D": "Mais de 90%"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 7,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Em que tipo de alimento, frequentemente, a alimentação complementar se baseia?",
+   "alternativas": {
+    "A": "Carne vermelha.",
+    "B": "Peixe seco.",
+    "C": "Papa de farinha de milho.",
+    "D": "Legumes e ovos."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 8,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Qual é um dos efeitos da sazonalidade agrícola sobre a nutrição infantil?",
+   "alternativas": {
+    "A": "Aumento súbito do consumo de carne.",
+    "B": "Redução da desnutrição aguda.",
+    "C": "Aumento da prevalência de desnutrição aguda.",
+    "D": "Alargamento da diversidade alimentar."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 9,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Em que situação se observa o consumo preocupante de alimentos açucarados?",
+   "alternativas": {
+    "A": "Entre crianças pequenas em determinados contextos.",
+    "B": "Apenas entre adolescentes.",
+    "C": "Apenas em zonas rurais isoladas.",
+    "D": "Exclusivamente entre adultos."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 10,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Que elemento demonstra que o conhecimento sobre alimentação infantil ainda é insuficiente?",
+   "alternativas": {
+    "A": "Alta taxa de aleitamento na primeira hora.",
+    "B": "Elevada disponibilidade de alimentos enriquecidos.",
+    "C": "Persistência de desnutrição crónica mesmo em províncias com mais recursos.",
+    "D": "Redução da taxa de fertilidade nacional."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 11,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Como classifica o texto em análise?",
+   "alternativas": {
+    "A": "Expositivo Argumentativo.",
+    "B": "Narrativo.",
+    "C": "Expositivo Explicativo.",
+    "D": "Relatório."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 12,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Qual é o objectivo do texto em análise?",
+   "alternativas": {
+    "A": "Seduzir o leitor para adoptar determinada opinião sobre a nutrição infantil em Moçambique.",
+    "B": "Explicar um fenómeno da nutrição infantil em Moçambique com base em informação factual.",
+    "C": "Narrar uma sequência de acontecimentos sobre nutrição infantil em Moçambique.",
+    "D": "Descrever emoções subjectivas do autor relacionadas com a nutrição infantil em Moçambique."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 13,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Que estratégia discursiva se apresenta no segmento “A desnutrição crónica constitui um problema crítico… Esta prevalência esconde desigualdades profundas…”?",
+   "alternativas": {
+    "A": "Enumeração de exemplos pessoais relacionados com o tema descrito.",
+    "B": "Descrição literária sobre a temática do texto.",
+    "C": "Explicação causal que liga a nutrição infantil em Moçambique às suas consequências.",
+    "D": "Argumentação persuasiva sobre a nutrição infantil."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 14,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "No trecho: “A desnutrição aguda afecta seis por cento das crianças… revelando a importância do aleitamento exclusivo…”, a relação discursiva entre as duas frases é:",
+   "alternativas": {
+    "A": "Adição",
+    "B": "Contraste",
+    "C": "Causa-efeito",
+    "D": "Condição"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 15,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Que função tem a frase “As deficiências de micronutrientes representam igualmente um grave problema de saúde pública…”, na macroestrutura do texto?",
+   "alternativas": {
+    "A": "Introduzir um novo subtema dentro do mesmo eixo temático.",
+    "B": "Conclui o tema.",
+    "C": "Introduz uma opinião pessoal.",
+    "D": "Quebra a lógica expositiva."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 16,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "No segmento “Preocupa igualmente o consumo de alimentos açucarados…” apresenta-se:",
+   "alternativas": {
+    "A": "Um argumento de autoridade.",
+    "B": "A introdução de um contraexemplo.",
+    "C": "A ampliação explicativa de um problema.",
+    "D": "Um recurso estilístico poético."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 17,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "A que operação textual corresponde o seguinte excerto “A alimentação infantil é ainda influenciada por factores estruturais, como a insegurança alimentar…”?",
+   "alternativas": {
+    "A": "Reformulação de ideias já apresentadas.",
+    "B": "Introdução de uma nova dimensão explicativa.",
+    "C": "Síntese conclusiva.",
+    "D": "Enumeração acessória sem relevância"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 18,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Que papel o trecho “Adicionalmente, estudos recentes revelam que mais de metade das famílias…” desempenha no desenvolvimento textual?",
+   "alternativas": {
+    "A": "Interrompe a coerência.",
+    "B": "Introduz opinião subjectiva.",
+    "C": "Altera o tema central.",
+    "D": "Fornece informação empírica que apoia a exposição."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 19,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Que função cumpre, no texto, a frase “O conjunto destas evidências demonstra que a nutrição infantil… exige uma abordagem abrangente”?",
+   "alternativas": {
+    "A": "Introdução de novos dados.",
+    "B": "Enumeração estatística.",
+    "C": "Descrição narrativa.",
+    "D": "Síntese conclusiva e reforço interpretativo."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 20,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "O texto utiliza percentagens como “43 por cento”, “64 por cento”, “40 por cento”. Que finalidade estes elementos cumprem?",
+   "alternativas": {
+    "A": "Conferir rigor e objectividade ao discurso.",
+    "B": "Expressar a emotividade.",
+    "C": "Apresentar o estilo do discurso.",
+    "D": "Introduzir ironia."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 21,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No excerto “A desnutrição crónica constitui um problema crítico”, o sintagma sublinhado desempenha a função de:",
+   "alternativas": {
+    "A": "Sujeito.",
+    "B": "Modificador apositivo.",
+    "C": "Predicativo do sujeito.",
+    "D": "Complemento indirecto."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 22,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "Na frase acima (21), o tipo de verbo que ocorre é:",
+   "alternativas": {
+    "A": "Transitivo directo.",
+    "B": "Transitivo indirecto.",
+    "C": "Bitransitivo.",
+    "D": "Pronominal."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 23,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "Qual é a classe da palavra sublinhada no excerto “Este fenómeno já afecta milhares de crianças.”?",
+   "alternativas": {
+    "A": "Conjunção",
+    "B": "Advérbio de tempo",
+    "C": "Preposição",
+    "D": "Determinante"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 24,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No segmento “embora se verifiquem melhorias”, a conjunção “embora” introduz uma:",
+   "alternativas": {
+    "A": "Oração causal",
+    "B": "Oração adversativa",
+    "C": "Oração concessiva",
+    "D": "Oração consecutiva"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 25,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No excerto “Menos de metade das crianças consumiu alimentos ricos em ferro”, a forma verbal consumiu estabelece concordância semântica com o núcleo:",
+   "alternativas": {
+    "A": "Crianças",
+    "B": "Metade",
+    "C": "Menos",
+    "D": "Ferro"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 26,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No excerto: “A insegurança alimentar afecta directamente a capacidade das famílias, e crises económicas recentes agravaram a situação”, a conjunção e exprime:",
+   "alternativas": {
+    "A": "Adição",
+    "B": "Oposição",
+    "C": "Alternância",
+    "D": "Explicação"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 27,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No segmento: “A maternidade precoce é outro factor relevante para a vulnerabilidade nutricional”, a preposição para indica:",
+   "alternativas": {
+    "A": "Causa",
+    "B": "Destino",
+    "C": "Finalidade",
+    "D": "Concessão"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 28,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No segmento da questão 27, a relação semântica entre as palavras “precoce” e “vulnerabilidade” é de:",
+   "alternativas": {
+    "A": "Sinonímia, porque ambas indicam o mesmo tipo de estado.",
+    "B": "Antonímia, porque expressam ideias opostas.",
+    "C": "Hiperonímia, porque “precoce” abrange o significado de “vulnerabilidade”.",
+    "D": "Relação contextual de causalidade, porque o fenómeno descrito como precoce contribui para aumentar a vulnerabilidade."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 29,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "No excerto: “As práticas revelam indicadores simultaneamente positivos e problemáticos…”, a relação semântica entre positivos e problemáticos pode ser classificada como:",
+   "alternativas": {
+    "A": "Sinónimos absolutos",
+    "B": "Sinónimos parciais",
+    "C": "Antónimos graduados",
+    "D": "Hiperónimos"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 30,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "Considerando o excerto: “Preocupa igualmente o consumo de alimentos açucarados”, a palavra igualmente estabeleça relação de:",
+   "alternativas": {
+    "A": "Adição",
+    "B": "Alternância",
+    "C": "Intensificação",
+    "D": "Restrição"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 31,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "O termo “açucarados”, no excerto acima (30), resulta do processo lexical de:",
+   "alternativas": {
+    "A": "Derivação prefixal a partir do verbo “açucarar”.",
+    "B": "Derivação regressiva a partir do substantivo “açúcar”.",
+    "C": "Derivação sufixal, formando adjectivo que expressa propriedade ou composição",
+    "D": "Composição por justaposição de duas bases lexicais independentes."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 32,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "Ainda no mesmo excerto (30), a palavra “igualmente”, estabeleça uma relação semântica de:",
+   "alternativas": {
+    "A": "Oposição entre ideias",
+    "B": "Adição, indicando que o consumo de alimentos açucarados se soma a outras preocupações já mencionadas",
+    "C": "Causa, explicando a razão da preocupação",
+    "D": "Consequência, mostrando o resultado de um facto anterior"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 33,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "“A literatura moçambicana apresenta uma profunda consciência crítica, graças aos processos de colonização, independência e, muitas vezes, a guerra civil, o que possibilita valorizar as múltiplas vozes e cruzamentos culturais que fazem parte do universo moçambicano” (Silva, 2016, p.12). Fazem parte dessas vozes literárias moçambicanas:",
+   "alternativas": {
+    "A": "Paulina Chiziane, Antero de Quental, Mia Couto e Fernando Pessoa.",
+    "B": "Paulina Chiziane, Ungulani Ba Ka Khosa, Noémia de Sousa e Kalungano.",
+    "C": "Paulina Chiziane, José Eduardo Agualuza, Ungulani Ba Ka Khosa e Noémia de Sousa.",
+    "D": "Paulina Chiziane, José Craverinha, Pepetela, Suleimane Cassamo."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 34,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "Em que ano, Paulina Chiziane foi galardoada com o Prémio Camões, o mais importante prémio literário da língua portuguesa?",
+   "alternativas": {
+    "A": "2025",
+    "B": "2023",
+    "C": "2021",
+    "D": "2019"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 35,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "A importância cultural e literária de Paulina Chiziane decorre sobretudo do facto de a sua obra:",
+   "alternativas": {
+    "A": "Centrar-se apenas em temas urbanos e contemporâneos sem ligação à tradição.",
+    "B": "Reproduzir exclusivamente modelos narrativos europeus.",
+    "C": "Articular oralidade, crítica social e representação das experiências femininas moçambicanas.",
+    "D": "Ter como foco principal a literatura infantil e juvenil."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 36,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "O título de Doutor Honoris Causa atribuído a Paulina Chiziane reflecte não apenas o valor literário da sua obra, mas também o impacto sociocultural das temáticas que aborda. Considerando o papel das instituições de ensino superior na valorização da produção intelectual. Qual das opções identifica a instituição moçambicana que, em 2022, formalizou esta distinção:",
+   "alternativas": {
+    "A": "Universidade Púngue.",
+    "B": "Universidade Rovuma",
+    "C": "Universidade Licungo",
+    "D": "Universidade Pedagógica de Maputo"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 37,
+   "parte": "literatura",
+   "texto_id": "t2",
+   "enunciado": "No excerto de Niketche, acima apresentado, estão evidentes as seguintes categorias da narrativa:",
+   "alternativas": {
+    "A": "Narrador, personagens, discurso e espaço.",
+    "B": "Narrador, descrição, personagens, espaço.",
+    "C": "Personagens, acção, narrador, tempo.",
+    "D": "Personagens, tempo, espaço, narrador."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 38,
+   "parte": "literatura",
+   "texto_id": "t2",
+   "enunciado": "No excerto em alusão, Rami assume o papel de:",
+   "alternativas": {
+    "A": "Personagem principal.",
+    "B": "Narradora Ominisciente.",
+    "C": "Narradora heterodiegética",
+    "D": "Narradora autodigética"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 39,
+   "parte": "literatura",
+   "texto_id": "t2",
+   "enunciado": "No texto 2, o recurso estilístico predominante é:",
+   "alternativas": {
+    "A": "Ironia.",
+    "B": "Metáfora.",
+    "C": "Anáfora",
+    "D": "Sinédoque."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 40,
+   "parte": "literatura",
+   "texto_id": "t2",
+   "enunciado": "Assinale a opção cujas palavras pertencem a classes gramaticais diferentes:",
+   "alternativas": {
+    "A": "Coração, Constelação, Dama, Amada.",
+    "B": "Depois, Caçulinha, Lar, Hexágono.",
+    "C": "Pontos, Segue-se, polígamo, Adquirida.",
+    "D": "Rami, Ocupando, Finalmente, amoroso"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 41,
+   "parte": "literatura",
+   "texto_id": "t2",
+   "enunciado": "O discurso introspectivo do narrador do Texto 2 evidencia a presença de uma focalização:",
+   "alternativas": {
+    "A": "Omnisciente.",
+    "B": "Interna.",
+    "C": "Externa.",
+    "D": "Parcial."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 42,
+   "parte": "producao",
+   "texto_id": null,
+   "enunciado": "Leia atentamente os parágrafos abaixo e, de seguida, assinale a opção que indica a ordem correcta dos parágrafos que formam um texto com sentido.\n\n(1) A costa de Moçambique pode ser quase toda Património Mundial pelo seu valor em termos da história natural do planeta, mas ela é, acima de tudo, um símbolo de história e de desenvolvimento económico e sócio-cultural dos povos que em Moçambique tiveram origem ou se instalaram, vindos doutras paragens, para formar o país que é hoje.\n\n(2) Apenas com estas perguntas respondidas com um sim é que se pode falar em desenvolvimento real e é este que se espera do turismo.\n\n(3) Hoje, o mar dá a muitos moçambicanos o sustento de todos os dias. Mulheres e crianças apanham à beira-mar, na zona entre marés, crustáceos e moluscos com que fazem a refeição do dia. Pescadores saem nos seus barquitos, a remo, à vela ou com um pequeno motor, e vão pescar para alimentar a família e para comerciar.\n\n(4) A orla marítima do território moçambicano é o ponto de encontro dos seus habitantes com o mar e com o resto do mundo. Por ela saíram há cerca de quinhentos anos, moçambicanos que foram povoar as costas de Madagáscar. Por ela tinham entrado antes povos da Ásia e do norte de África e, por último, da Europa, para conhecer, para comerciar, para explorar. A costa é, e vai ser cada vez mais, o espelho da estagnação ou do desenvolvimento que hoje se decide no país. Em causa está o tipo e qualidade desse desenvolvimento, em termos das garantias que ele oferece de ser a base para a evolução dos moçambicanos no contexto do continente e do mundo.\n\n(5) Será que, com a indústria turística implantada nesses locais até agora quase virgens, haverá estradas que facilitem e beneficiem as trocas comerciais agrícolas ao no seu percurso? Haverá mais emprego para os jovens dessas zonas? A população dessas áreas passará a alimentar-se melhor, a ter escola primária e posto de saúde, devidamente equipados e a uma distância razoável para quem anda a pé? Haverá alguma forma de transporte público, acessível e seguro?\n\nFonte: Ambiente e Desenvolvimento Sustentável, Agosto/ Setembro de 2000 (adaptado)",
+   "alternativas": {
+    "A": "(4), (3), (5), (2), (1).",
+    "B": "(2), (5), (3), (4), (1).",
+    "C": "(1), (4), (3), (5), (2).",
+    "D": "(3), (4), (5), (4), (1)."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t4",
+   "explicacao": null
+  }
+ ]
+}

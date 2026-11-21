@@ -1,0 +1,11 @@
+[
+ {
+  "id": "portugues-ii-2026",
+  "ano": 2026,
+  "disciplina": "Língua Portuguesa",
+  "titulo": "Exame de Português II",
+  "ficheiro": "portugues-ii-2026.json",
+  "total_questoes": 42,
+  "duracao_minutos": 120
+ }
+]
