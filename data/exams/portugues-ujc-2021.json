@@ -1,0 +1,758 @@
+{
+ "id": "portugues-ujc-2021",
+ "titulo": "Exame de Português",
+ "ano": 2021,
+ "disciplina": "Língua Portuguesa",
+ "instituicao": "Universidade Joaquim Chissano (UJC)",
+ "duracao_minutos": 120,
+ "total_questoes": 40,
+ "gabarito_status": "pendente",
+ "cabecalho": {
+  "entidade": "COMISSÃO DE EXAMES DE ADMISSÃO",
+  "titulo": "EXAME DE PORTUGUÊS – 2021",
+  "instrucoes": [
+   "A prova é constituída por sessenta (40) questões, todas com quatro (4) alternativas de resposta, estando correcta somente UMA (1) das alternativas.",
+   "Para cada questão assinale a resposta escolhida na FOLHA DE RESPOSTAS que lhe foi fornecida no início do exame. Não será aceite qualquer outra folha adicional.",
+   "Pinte o rectângulo com a letra correspondente à resposta escolhida. Por exemplo, se as respostas às questões 45 e 46 forem B e C, respectivamente, pinte assim:",
+   "Preencha a lápis HB, pois contrariamente ao preenchimento por esferográfica, os erros podem ser totalmente apagados sem deixar nenhuma marca que possa perturbar a leitura da máquina óptica.",
+   "Se tiver a certeza de que as respostas assinaladas a lápis são as definitivas, PODE passar à esferográfica de tinta azul ou preta."
+  ],
+  "fecho": "BOM TRABALHO"
+ },
+ "partes": [
+  {
+   "id": "compreensao",
+   "nome": "I",
+   "rotulo": "Compreensão do texto",
+   "instrucao": "",
+   "de": 1,
+   "ate": 8
+  },
+  {
+   "id": "literatura",
+   "nome": "II",
+   "rotulo": "Literatura",
+   "instrucao": "",
+   "de": 9,
+   "ate": 10
+  },
+  {
+   "id": "antonimos",
+   "nome": "III",
+   "rotulo": "Antónimos",
+   "instrucao": "INDICA OS ANTÓNIMOS DAS PALAVRAS QUE SE SEGUEM:",
+   "de": 11,
+   "ate": 16
+  },
+  {
+   "id": "ordens",
+   "nome": "IV",
+   "rotulo": "Ordens (imperativo)",
+   "instrucao": "TRANSFORME AS FRASES QUE SE SEGUEM EM ORDENS",
+   "de": 17,
+   "ate": 20
+  },
+  {
+   "id": "pronomes",
+   "nome": "V",
+   "rotulo": "Pronomes pessoais",
+   "instrucao": "SUBSTITUA A PARTE SUBLINHADA POR UM PRONOME PESSOAL.",
+   "de": 21,
+   "ate": 27
+  },
+  {
+   "id": "preposicoes",
+   "nome": "VI",
+   "rotulo": "Preposições",
+   "instrucao": "PREENCHA OS ESPAÇOS EM BRANCO COLOCANDO A PREPOSIÇÃO CERTA, CONTRAINDO-A SE NECESSÁRIO:",
+   "de": 28,
+   "ate": 31
+  },
+  {
+   "id": "sinonimos",
+   "nome": "VII",
+   "rotulo": "Sinónimos",
+   "instrucao": "SELECCIONE OS SINÓNIMOS DAS PALAVRAS SUBLINHADAS EM CADA NÚMERO:",
+   "de": 32,
+   "ate": 35
+  },
+  {
+   "id": "analogias",
+   "nome": "VIII",
+   "rotulo": "Analogias",
+   "instrucao": "ENCONTRE AS PALAVRAS CORRESPONDENTES NOS NÚMEROS ABAIXO:",
+   "de": 36,
+   "ate": 40
+  }
+ ],
+ "textos": [
+  {
+   "id": "t1",
+   "titulo": "A NECESSIDADE DO CEPTICISMO POLÍTICO",
+   "subtitulo": "",
+   "paragrafos": [
+    "Uma das peculiaridades do mundo da língua inglesa é o seu imenso interesse e crença nos partidos políticos. Uma grande percentagem de gente que fala inglês acredita realmente que os males de que sofre seriam curados se estivesse no poder determinado partido político. Há um motivo para o pêndulo oscilar. Um homem vota num partido e continua infeliz; conclui, assim, que o outro partido é que lhe daria a superioridade. Quando afinal se desencanta de todos os partidos, já é um velho com o pé na cova; os filhos retêm a crença da juventude, e o erro continua.",
+    "Desejo sugerir que, para obtermos algum resultado em política, devemos encarar as questões de maneira totalmente diferente. Numa democracia, o partido que deseja galgar o poder deve fazer um apelo ao qual responde a maioria da nação. É difícil que não seja nocivo, na democracia existente, um apelo de amplo êxito. Portanto, não é provável que nenhum partido político tenha um programa útil, e, para que sejam tomadas providências úteis, devem ser levadas a efeito por outra organização diferente do governo partidário. Um dos problemas mais urgentes da nossa época é combinar essa organização com a democracia.",
+    "Há actualmente dois tipos muito diferentes de especialistas em questões políticas. De um lado, os políticos práticos de todos os partidos; do outro, os peritos, principalmente os funcionários públicos, mas também os economistas, financeiros, cientistas, médicos, etc. Cada grupo possui um género de habilidade. A do político consiste em adivinhar quem pode ser convencido a pensar a favor do seu partido; a habilidade do perito consiste em calcular o que, na verdade, é vantajoso contanto que possa convencer o povo. (Esta condição é essencial, porque as providências que provocam ressentimentos sérios raramente são vantajosas, por mais méritos que possam ter noutro plano). O poder do político, numa democracia, depende do facto de adoptar as opiniões que pareçam correctas ao cidadão comum. É inútil clamar que os políticos deveriam ser suficientemente patriotas para advogar o que a opinião esclarecida considerasse bom, porque se o fizessem seriam varridos do caminho. Além disso, a habilidade intuitiva de que necessitam para prever a opinião alheia não implica qualquer capacidade na formação das suas próprias opiniões, de modo que muitos dos mais capazes (do ponto de vista político-partidário) estarão em condições de advogar, com toda a sinceridade, medidas que a maioria acha boas, mas que os peritos sabem ser más. Portanto, é inútil exortar os políticos a procederem desinteressadamente, excepto na forma mais crua de se absterem do suborno.",
+    "Onde quer que exista a política partidária, o político recorre primariamente a um sector da opinião pública, enquanto os seus adversários se dirigem ao sector oposto. O seu sucesso depende da transformação do seu sector em maioria. Uma medida que interessa igualmente a todos os sectores será presumivelmente terreno comum a todos os partidos e, portanto, de nada servirá o político. Consequentemente, ele concentra a sua atenção nas medidas que desagradam ao sector que forma o núcleo dos adeptos do adversário. Além disso, por mais admirável que seja uma providência, será inútil ao político, a menos que lhe possa dar razões que, expostas num discurso, pareçam convincentes para o homem comum. Temos assim duas condições que devem ser preenchidas pelas medidas que os políticos mais realçam: (1) devem parecer favoráveis a um sector do país; (2) os argumentos a seu favor devem ser da maior simplicidade. Naturalmente, isto não se aplica em tempo de guerra, porque então o conflito partidário suspende-se em favor do embate com o inimigo exterior. Na guerra, as artes do político são aplicadas aos neutros, que correspondem ao eleitor hesitante da política normal. A última guerra (II guerra mundial) demonstrou que, como seria de esperar, a democracia constitui um treino admirável para a tarefa de apelar para os neutros. Foi essa uma das razões principais da democracia ter ganho a guerra. É verdade que perdeu a paz; mas isso já é outra questão.",
+    "A habilidade específica do político consiste em saber que paixões pode com maior facilidade despertar, e como evitar, quando despertas, que sejam nocivas a ele próprio e aos seus aliados. Na política, tal como na teoria da moeda, há uma lei de Gresham; o homem que visar objectivos mais nobres será expulso, excepto naqueles raros momentos (principalmente revoluções) em que o idealismo se conjuga com um poderoso movimento de paixão interesseira. Além disso, como os políticos estão divididos em grupos rivais, tendem a dividir a nação, a menos que tenham a sorte de uni-la numa guerra contra outra nação. Vivem à custa do “ruído e da fúria, que nada significam”. Não podem prestar atenção a algo que seja difícil de explicar, nem ao que não acarrete divisão (seja entre nações seja ao nível nacional), ao que reduza o poder dos políticos como classe.",
+    "O perito é um tipo curiosamente diferente. Via de regra, é um indivíduo que não almeja o poder político. A sua reacção natural a uma solução política é indagar se esta seria benéfica, em vez de perguntar se seria popular. Em certos campos, possui excelente conhecimento técnico. Se for funcionário público ou chefe duma grande empresa, tem considerável experiência dos cidadãos, e pode ser um juiz arguto das suas acções. Tudo isto são circunstâncias favoráveis, que conferem peso à sua opinião sobre o assunto.",
+    "Todavia, ele apresenta em geral defeitos correlativos. Como o seu saber é especializado, sobrestima provavelmente a importância da sua profissão. Se formos sucessivamente a um cirurgião-dentista, a um oftalmologista, a um cardiologista, a um tisiólogo, a um neurologista, e assim por diante, cada um dará conselhos admiráveis sobre a maneira de evitar as doenças das suas especialidades. E se seguirmos os conselhos de todos, verificaremos que as vinte e quatro horas do dia serão poucas para conservar a saúde, não nos sobrando tempo para gozarmos a mesma. Isto aplica-se facilmente aos peritos em política; se todos os seus conselhos fossem seguidos, a nação não teria tempo para a vida normal."
+   ],
+   "fonte": "Bertrand Russel"
+  }
+ ],
+ "observacoes_revisao": [
+  "Transcrição fiel ao PDF; a grafia original foi mantida (ex.: 'Russel', 'actualmente', 'correcta', 'fundamente', 'Nos-a', 'dir-lhe-à', 'estabeleça'). Nada foi corrigido no texto das questões.",
+  "A instrução 1 diz 'sessenta (40) questões': incoerência do original (a prova tem 40 questões). Mantida.",
+  "A instrução 3 refere questões 45 e 46 e um quadro de exemplo de preenchimento da folha de respostas; o quadro (imagem) não foi incluído.",
+  "Questões 21 a 27 ('parte sublinhada') e 32 a 35 ('palavras sublinhadas'): o sublinhado não aparece no texto extraído. Confirmar no PDF qual é o segmento sublinhado.",
+  "Texto: 'cirurgião-dentista' foi reconstituído de uma quebra de linha do PDF ('cirurgião-' / 'dentista'). Confirmar no original.",
+  "Os títulos romanos (I a VIII) e as instruções de cada parte estão no original; os rótulos descritivos das partes (ex.: 'Compreensão do texto') foram acrescentados pelo app para o relatório de desempenho. As partes II e VIII-A não têm título no original.",
+  "Q17 a Q20 (ordens/imperativo) ainda não têm aula no app (topico_id null).",
+  "O nome do ficheiro original refere 'UJC-ISRI'; a instituição foi registada como Universidade Joaquim Chissano, conforme o cabeçalho do exame.",
+  "Gabarito oficial não fornecido: resposta_correta = null em todas as questões; explicacao = null."
+ ],
+ "questoes": [
+  {
+   "numero": 1,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Por que é que o político presta a sua atenção às medidas que não servem os interesses dos simpatizantes dos seus rivais?",
+   "alternativas": {
+    "A": "O político preocupa-se apenas com os seus.",
+    "B": "Porque querem conhecer as fragilidades dos adversários.",
+    "C": "Porque informação é poder.",
+    "D": "O político presta a sua atenção às medidas que não servem os interesses dos simpatizantes dos seus rivais porque as medidas que interessam a todos os sectores, por ser terreno de todos os partidos, não lhe serve."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 2,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Apresente uma maneira, que o autor considera totalmente diferente, pela qual devem ser encaradas as questões para se obter resultados em política:",
+   "alternativas": {
+    "A": "Essa maneira é a combinação de uma organização diferente do governo partidário com a democracia.",
+    "B": "Essa maneira é priorizar os peritos.",
+    "C": "Essa maneira é fazer tudo de forma transparente.",
+    "D": "Essa maneira é ser inclusivo, independentemente da cor partidária."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 3,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Apresente duas diferenças entre o político prático e o perito:",
+   "alternativas": {
+    "A": "O primeiro defende o seu partido e quer sempre vencer; o segundo é perfeccionista e acha que tem mais valor.",
+    "B": "O político (a sua habilidade) é adivinhar quem pode ser convencido a pensar a favor do seu partido, enquanto a habilidade do perito é calcular aquilo que é realmente vantajoso podendo convencer o povo; A habilidade específica do político consiste em saber que paixões pode com maior facilidade despertar, e como evitar, quando despertas, que sejam nocivas a ele próprio e aos seus aliados, enquanto o perito é um indivíduo que não almeja o poder político, interessando-se em saber se uma solução política é benéfica, em vez de perguntar se seria popular.",
+    "C": "O político procura angariar mais membros para o seu partido e garantir o poder; o perito procura informar-se mais e fazer melhor o seu trabalho.",
+    "D": "O político tem como meta vencer e usa tudo ao seu redor; o perito tem como meta dominar o conhecimento e usa a investigação para obter mais conhecimento."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 4,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Segundo o autor, as pessoas dos países de língua inglesa têm um grande interesse e acreditam nos partidos políticos. O que é que fundamente que essa crença se mantenha?",
+   "alternativas": {
+    "A": "Porque são os partidos políticos que governam os países.",
+    "B": "Porque sem os partidos políticos os países não são viáveis",
+    "C": "As pessoas votam num partido e cada vez que se frustram votam noutro partido. Quando se desencantam com todos os partidos, já estão demasiado velhos. Quanto aos filhos, retêm a mesma crença da juventude e repetem os mesmos erros.",
+    "D": "Porque todo ser humano é político."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 5,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Por que razão seguir, à risca, os conselhos dos médicos tornaria as horas do dia poucas para cuidar da saúde?",
+   "alternativas": {
+    "A": "Porque a saúde é muito delicada.",
+    "B": "Porque a lista dos cuidados a ter com a saúde é vasta.",
+    "C": "Porque os médicos falam muito.",
+    "D": "Porque a cada dia há novas formas de cuidar da saúde."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 6,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Uma medida que interessa igualmente a todos os sectores, será presumivelmente terreno comum a todos os partidos e, portanto, de nada servirá o político. Este trecho quer dizer:",
+   "alternativas": {
+    "A": "Que o político gosta de guerra.",
+    "B": "Que o político cede facilmente aos outros.",
+    "C": "Que o político não tem interesse naquilo que não dá vantagem.",
+    "D": "Que o político não gosta de partilhar com os outros."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 7,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Qual é a principal crítica que o autor faz aos peritos?",
+   "alternativas": {
+    "A": "Valorizam demais o seu conhecimento.",
+    "B": "Subestimam a importância da sua profissão",
+    "C": "Despreza os políticos.",
+    "D": "Pretendem que os políticos sigam todos os seus conselhos."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 8,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Por que é que o autor considera ser vã a tentativa de apelar os políticos a agirem desinteressadamente?",
+   "alternativas": {
+    "A": "Porque eles só fariam se fossem subordinados.",
+    "B": "Porque os políticos práticos mais capazes poderiam convencer as maiorias.",
+    "C": "Os políticos não estão interessados em convencer os cidadãos mais capazes.",
+    "D": "Os políticos não são suficientemente patriotas."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 9,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "Mia Couto escreveu:",
+   "alternativas": {
+    "A": "Vozes anoitecidas.",
+    "B": "Sete histórias de meter medo.",
+    "C": "Babalaza das hienas.",
+    "D": "O crime do padre Amaro."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 10,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "Yô Mabalane é obra de:",
+   "alternativas": {
+    "A": "Paulina Chiziane",
+    "B": "Juvenal Bucuane",
+    "C": "Albino Magaia",
+    "D": "Marcelo Panguana"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 11,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Dignidade",
+   "alternativas": {
+    "A": "Bem-estar",
+    "B": "Miserável",
+    "C": "Digno",
+    "D": "Agonia"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 12,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Sensato",
+   "alternativas": {
+    "A": "Razoável",
+    "B": "Compreensível",
+    "C": "Bom",
+    "D": "Intransigente"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 13,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Discriminação",
+   "alternativas": {
+    "A": "Privar alguém de sua dignidade",
+    "B": "Injustiça",
+    "C": "Racismo",
+    "D": "Inclusão"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 14,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Céptico",
+   "alternativas": {
+    "A": "Saudável",
+    "B": "Bom",
+    "C": "Optimista",
+    "D": "Invejoso"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 15,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Imparcial",
+   "alternativas": {
+    "A": "Neutro",
+    "B": "Parceiro",
+    "C": "Injusto",
+    "D": "Toma partido"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 16,
+   "parte": "antonimos",
+   "texto_id": null,
+   "enunciado": "Fraternidade",
+   "alternativas": {
+    "A": "Harmonia entre os indivíduos",
+    "B": "Desarmonia entre os indivíduos",
+    "C": "Cumplicidade",
+    "D": "Eternidade"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 17,
+   "parte": "ordens",
+   "texto_id": null,
+   "enunciado": "Não te importas de estar quieto?",
+   "alternativas": {
+    "A": "Fica quieto",
+    "B": "Esteja quieto",
+    "C": "Está quieto",
+    "D": "Cala-te."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 18,
+   "parte": "ordens",
+   "texto_id": null,
+   "enunciado": "Podes ser mais breve?",
+   "alternativas": {
+    "A": "Seja breve",
+    "B": "Sê breve",
+    "C": "Breve",
+    "D": "Despacha-te"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 19,
+   "parte": "ordens",
+   "texto_id": null,
+   "enunciado": "Poderiam levantar-se?",
+   "alternativas": {
+    "A": "Levanta-te",
+    "B": "Levantar",
+    "C": "Levantem-se",
+    "D": "Levantemos"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 20,
+   "parte": "ordens",
+   "texto_id": null,
+   "enunciado": "Devia deter o ladrão.",
+   "alternativas": {
+    "A": "Detenha-o.",
+    "B": "Detenha o ladrão",
+    "C": "Detê-lo",
+    "D": "Deter"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 21,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "O João dará aos seus amigos uma festa no dia do seu aniversário.",
+   "alternativas": {
+    "A": "Dá-los",
+    "B": "Dar-lhos",
+    "C": "Dar-lha-á",
+    "D": "Dar-lhes-irá"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 22,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "São os professores que ensinam a matéria a mim e aos meus colegas.",
+   "alternativas": {
+    "A": "nos",
+    "B": "No-la",
+    "C": "Nos-a",
+    "D": "A-nós"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 23,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "Deus acuda os aflitos.",
+   "alternativas": {
+    "A": "Os",
+    "B": "Lhes",
+    "C": "Aos",
+    "D": "Eles"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 24,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "Disseste-me que vieram ver a casa.",
+   "alternativas": {
+    "A": "Na",
+    "B": "La",
+    "C": "A",
+    "D": "À"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 25,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "Diz ao juiz com quem andas, e ele dirá a ti quem és.",
+   "alternativas": {
+    "A": "dir-lhe-à",
+    "B": "dir-to-á",
+    "C": "dizer-te à",
+    "D": "dirá-te"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 26,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "Ele havia oferecido um livro ao amigo.",
+   "alternativas": {
+    "A": "havia-le",
+    "B": "havia-lho",
+    "C": "havia-lo",
+    "D": "havia-lhe"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 27,
+   "parte": "pronomes",
+   "texto_id": null,
+   "enunciado": "Eu digo a verdade a vós.",
+   "alternativas": {
+    "A": "digo-vo-la",
+    "B": "digo-vos",
+    "C": "digo-lhes",
+    "D": "digo-la"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 28,
+   "parte": "preposicoes",
+   "texto_id": null,
+   "enunciado": "A Joana discordou __ o seu advogado quanto à estratégia de defesa.",
+   "alternativas": {
+    "A": "com",
+    "B": "de",
+    "C": "do",
+    "D": "pelo"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 29,
+   "parte": "preposicoes",
+   "texto_id": null,
+   "enunciado": "Bati __ porta, mas demoraram a abrir.",
+   "alternativas": {
+    "A": "na",
+    "B": "em",
+    "C": "à",
+    "D": "a"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 30,
+   "parte": "preposicoes",
+   "texto_id": null,
+   "enunciado": "Quando entrei, vi o irmão mais velho a bater __ mais novo.",
+   "alternativas": {
+    "A": "O",
+    "B": "no",
+    "C": "ao",
+    "D": "para"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 31,
+   "parte": "preposicoes",
+   "texto_id": null,
+   "enunciado": "A nossa empresa está vocacionada ___ reparação de computadores.",
+   "alternativas": {
+    "A": "a",
+    "B": "para",
+    "C": "por",
+    "D": "à"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 32,
+   "parte": "sinonimos",
+   "texto_id": null,
+   "enunciado": "Ele é demasiado céptico.",
+   "alternativas": {
+    "A": "simpático",
+    "B": "dissimulado",
+    "C": "reticente",
+    "D": "animado"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 33,
+   "parte": "sinonimos",
+   "texto_id": null,
+   "enunciado": "As forças de defesa são audazes.",
+   "alternativas": {
+    "A": "condescendentes",
+    "B": "aptas",
+    "C": "nenhuma das opções",
+    "D": "afáveis"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 34,
+   "parte": "sinonimos",
+   "texto_id": null,
+   "enunciado": "A mãe da noiva foi sensata.",
+   "alternativas": {
+    "A": "sensível",
+    "B": "saudável",
+    "C": "má",
+    "D": "razoável"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 35,
+   "parte": "sinonimos",
+   "texto_id": null,
+   "enunciado": "A Joana andou a vida toda na luxúria.",
+   "alternativas": {
+    "A": "vida faustosa",
+    "B": "luxo",
+    "C": "vida muito boa",
+    "D": "libertinagem"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 36,
+   "parte": "analogias",
+   "texto_id": null,
+   "enunciado": "Calçado está para couro como vestuário está para:",
+   "alternativas": {
+    "A": "roupa",
+    "B": "camisola",
+    "C": "têxtil",
+    "D": "algodão"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 37,
+   "parte": "analogias",
+   "texto_id": null,
+   "enunciado": "Almoço está para refeição como automóvel está para:",
+   "alternativas": {
+    "A": "auto-estrada",
+    "B": "viagem",
+    "C": "veículo",
+    "D": "piloto"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 38,
+   "parte": "analogias",
+   "texto_id": null,
+   "enunciado": "Ortopedia está para reabilitação física como estomatologia está para:",
+   "alternativas": {
+    "A": "boca",
+    "B": "estômago",
+    "C": "cérebro",
+    "D": "audição"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 39,
+   "parte": "analogias",
+   "texto_id": null,
+   "enunciado": "Gastronomia está para cozinha como indumentária está para:",
+   "alternativas": {
+    "A": "vestuário",
+    "B": "industrialização",
+    "C": "imóveis",
+    "D": "mecanização"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 40,
+   "parte": "analogias",
+   "texto_id": null,
+   "enunciado": "Bússola está para navegador como semáforo está para:",
+   "alternativas": {
+    "A": "polícia",
+    "B": "código",
+    "C": "carro",
+    "D": "condutor"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  }
+ ]
+}

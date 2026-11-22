@@ -6,6 +6,17 @@
   "titulo": "Exame de Português II",
   "ficheiro": "portugues-ii-2026.json",
   "total_questoes": 42,
+  "duracao_minutos": 120,
+  "instituicao": "UP · UniPúngue · UniLicungo · UniRovuma"
+ },
+ {
+  "id": "portugues-ujc-2021",
+  "ano": 2021,
+  "disciplina": "Língua Portuguesa",
+  "instituicao": "Universidade Joaquim Chissano (UJC)",
+  "titulo": "Exame de Português",
+  "ficheiro": "portugues-ujc-2021.json",
+  "total_questoes": 40,
   "duracao_minutos": 120
  }
 ]

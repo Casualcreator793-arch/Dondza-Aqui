@@ -16,7 +16,7 @@ DZ.exams = {
       const e = DZ.S.exames[x.id];
       const est = !e ? "Não iniciado" : e.estado === "concluido" ? "Concluído" : "Em andamento";
       const nota = e && e.melhor ? `${e.melhor.acertos}/${e.melhor.total} (${e.melhor.pct}%)` : e && e.estado === "concluido" ? "Gabarito pendente" : "—";
-      return `<button class="ex-cartao" data-ir="exame/${x.id}"><div class="ano">${x.ano}</div><div>${DZ.esc(x.disciplina)}</div><div class="peq suave">${x.total_questoes} questões</div>
+      return `<button class="ex-cartao" data-ir="exame/${x.id}"><div class="ano">${x.ano}</div><div>${DZ.esc(x.disciplina)}</div><div class="peq suave">${DZ.esc(x.instituicao || "")}</div><div class="peq suave">${x.total_questoes} questões</div>
         <div style="margin-top:6px"><span class="tag ok">${est}</span></div><div class="peq" style="margin-top:6px">Melhor nota: ${nota}</div></button>`;
     }).join("") + "</div>");
   }
@@ -39,7 +39,7 @@ DZ.rotas.exame = async ([id], app) => {
   function menu() {
     clearInterval(DZ.tm);
     const aviso = temGab ? "" : '<div class="aviso"><b>Gabarito oficial pendente.</b> Pode resolver o exame, mas as respostas ainda não são corrigidas e não há nota.</div>';
-    const instr = `<div class="cartao"><b>${DZ.esc(ex.cabecalho.entidade)}</b><br>${DZ.esc(ex.cabecalho.titulo)}<ol style="padding-left:20px;margin:8px 0 0">${ex.cabecalho.instrucoes.map(i => `<li>${DZ.esc(i)}</li>`).join("")}</ol></div>`;
+    const instr = `<div class="cartao"><b>${DZ.esc(ex.cabecalho.entidade)}</b><br>${DZ.esc(ex.cabecalho.titulo)}<ol style="padding-left:20px;margin:8px 0 0">${ex.cabecalho.instrucoes.map(i => `<li>${DZ.esc(i)}</li>`).join("")}</ol>${ex.cabecalho.fecho ? `<p class="centro"><b>${DZ.esc(ex.cabecalho.fecho)}</b></p>` : ""}</div>`;
     let corpo;
     if (es && es.estado === "andamento") corpo = `<button class="btn" id="cont">Continuar (questão ${es.atual} de ${total} · modo ${es.modo === "simulado" ? "Simulado" : "Estudo"})</button><button class="btn sec" id="rec">Recomeçar</button>`;
     else corpo = (es && es.estado === "concluido" ? '<button class="btn sec" id="vres" style="margin-bottom:12px">Ver último resultado</button>' : "") +
@@ -71,7 +71,7 @@ DZ.rotas.exame = async ([id], app) => {
     app.innerHTML = barra(`Questão ${n} de ${total}`, (sim ? `<b id="tm">${fmtTempo(es.restanteMs)}</b>` : "") + '<button class="icone-btn" id="mp" aria-label="Mapa de questões">▦</button>') +
       `<div class="barra"><i style="width:${n / total * 100}%"></i></div>
       <div class="contadores" style="margin:8px 0">${temGab && !sim ? `<span class="c">✔ ${ac}</span><span class="e">✘ ${er}</span>` : ""}<span class="suave">Respondidas: ${nResp()}/${total}</span></div>
-      <span class="tag">${DZ.esc(parte.nome)}</span>
+      <span class="tag">${DZ.esc(parte.rotulo || parte.nome)}</span>${parte.instrucao ? `<p class="peq" style="margin:10px 0 0"><b>${DZ.esc(parte.instrucao)}</b></p>` : ""}
       ${qq.texto_id ? '<button class="btn sec" id="vt" style="margin:10px 0">📄 Ver texto</button>' : ""}
       <p class="enunciado" style="margin-top:12px"><b>${n}.</b> ${DZ.esc(qq.enunciado)}</p>
       <div id="ops">${Object.entries(qq.alternativas).map(([l, t]) => {
@@ -129,7 +129,7 @@ DZ.rotas.exame = async ([id], app) => {
     const partes = ex.partes.map(p => {
       const qs = ex.questoes.filter(x => x.numero >= p.de && x.numero <= p.ate); let c = 0, r = 0;
       qs.forEach(x => { const rr = es.respostas[x.numero]; if (rr) r++; if (certa(x, rr)) c++; });
-      return { id: p.id, nome: p.nome, total: qs.length, certas: c, respondidas: r };
+      return { id: p.id, nome: p.rotulo || p.nome, total: qs.length, certas: c, respondidas: r };
     });
     const acertos = partes.reduce((s, p) => s + p.certas, 0), pct = Math.round(acertos / total * 100);
     const erradas = temGab ? ex.questoes.filter(x => !certa(x, es.respostas[x.numero])).map(x => x.numero) : [];
@@ -153,9 +153,9 @@ DZ.rotas.exame = async ([id], app) => {
         <div class="cartao"><h3>Pontos fortes</h3><p class="peq">${fortes.length ? fortes.map(p => DZ.esc(p.nome)).join("; ") : "Ainda não há partes com 70% ou mais."}</p>
         <h3>Pontos a melhorar</h3><p class="peq">${fracos.length ? fracos.map(p => DZ.esc(p.nome)).join("; ") : "Nenhum. Bom trabalho!"}</p></div>`;
       const por = {}; let lit = 0;
-      R.erradas.forEach(n => { const t = q(n).topico_id; if (t) (por[t] = por[t] || []).push(n); else if (q(n).modulo_aula === "m3") lit++; });
+      R.erradas.forEach(n => { const t = q(n).topico_id; if (t) (por[t] = por[t] || []).push(n); else lit++; });
       h += '<div class="cartao"><h3>Revisar na aba Aulas</h3>' + (Object.keys(por).length ? Object.entries(por).map(([t, ns]) => `<button class="topico destaque" data-ir="topico/${t}"><span class="t">${DZ.esc(DZ.lessons.achar(t).t.titulo)}<br><span class="peq suave">Questões ${ns.join(", ")}</span></span><span class="tag rec">Abrir aula</span></button>`).join("") : '<p class="peq">Sem tópicos para rever.</p>') +
-        (lit ? `<div class="topico bloqueado"><span class="t">Literatura (${lit} questões erradas)<br><span class="peq suave">Aula em breve</span></span></div>` : "") + "</div>";
+        (lit ? `<div class="topico bloqueado"><span class="t">Sem aula ainda (${lit} questões erradas)<br><span class="peq suave">Aula em breve</span></span></div>` : "") + "</div>";
     }
     h += (!R.pendente && R.erradas.length ? '<button class="btn" id="rv">Rever questões erradas</button>' : "") +
       '<button class="btn sec" data-ir="inicio/aulas">Ir para a aba Aulas</button><button class="btn sec" id="nv">Fazer novamente</button><button class="btn sec" data-ir="inicio/exames">Voltar aos exames</button>';

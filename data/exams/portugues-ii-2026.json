@@ -78,7 +78,8 @@
   "Texto 2, linha 1 do parágrafo: 'Mauá Saulé, a amada, a caçulinha, recém adquirida' mantido como no PDF.",
   "Gabarito oficial não fornecido: resposta_correta = null em todas as questões; explicacao = null.",
   "Q40 está na parte III (Literatura) mas avalia classes de palavras; foi associada ao Módulo 2 (m2-t2), conforme a secção 7.5 do briefing.",
-  "Alternativas: onde o PDF mostra duas alternativas por linha, foram separadas em A, B, C, D, na mesma ordem. A pontuação final de cada alternativa foi mantida como no original (algumas sem ponto final)."
+  "Alternativas: onde o PDF mostra duas alternativas por linha, foram separadas em A, B, C, D, na mesma ordem. A pontuação final de cada alternativa foi mantida como no original (algumas sem ponto final).",
+  "Instituição registada a partir dos quatro logótipos do cabeçalho (UP Maputo, UniPúngue, UniLicungo, UniRovuma). Confirmar a designação oficial."
  ],
  "questoes": [
   {
@@ -753,5 +754,6 @@
    "topico_id": "m1-t4",
    "explicacao": null
   }
- ]
+ ],
+ "instituicao": "UP · UniPúngue · UniLicungo · UniRovuma"
 }
