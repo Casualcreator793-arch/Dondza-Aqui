@@ -1,0 +1,765 @@
+{
+ "id": "portugues-i-uem-2026",
+ "titulo": "Exame de Português I",
+ "ano": 2026,
+ "disciplina": "Língua Portuguesa",
+ "instituicao": "Universidade Eduardo Mondlane (UEM)",
+ "duracao_minutos": 90,
+ "total_questoes": 40,
+ "alternativas_por_questao": 5,
+ "gabarito_status": "pendente",
+ "cabecalho": {
+  "entidade": "Direcção Pedagógica · Departamento de Admissão à Universidade (DAU)",
+  "titulo": "PORTUGUÊS I · 2026 · 90 minutos · 40 questões · 5 alternativas por questão",
+  "instrucoes": [
+   "Preencha as suas respostas na FOLHA DE RESPOSTAS que lhe foi fornecida no início desta prova. Não será aceite qualquer outra folha adicional, incluindo este enunciado.",
+   "Na FOLHA DE RESPOSTAS, assinale a letra que corresponde à alternativa escolhida pintando completamente o interior do círculo por cima da letra. Por exemplo, pinte assim ●.",
+   "A máquina de leitura óptica anula todas as questões com mais de uma resposta e/ou com borrões. Para evitar isto, preencha primeiro a lápis HB, e só depois, quando tiver certeza das respostas, a esferográfica (de cor azul ou preta)."
+  ],
+  "fecho": "FIM!"
+ },
+ "partes": [
+  {
+   "id": "compreensao",
+   "nome": "Compreensão e interpretação do texto",
+   "rotulo": "Compreensão e interpretação do texto",
+   "instrucao": "",
+   "de": 1,
+   "ate": 23
+  },
+  {
+   "id": "lingua",
+   "nome": "Língua e tipologia textual",
+   "rotulo": "Língua e tipologia textual",
+   "instrucao": "",
+   "de": 24,
+   "ate": 35
+  },
+  {
+   "id": "literatura",
+   "nome": "Literatura",
+   "rotulo": "Literatura",
+   "instrucao": "",
+   "de": 36,
+   "ate": 36
+  },
+  {
+   "id": "frase",
+   "nome": "Correcção e estrutura da frase",
+   "rotulo": "Correcção e estrutura da frase",
+   "instrucao": "",
+   "de": 37,
+   "ate": 40
+  }
+ ],
+ "textos": [
+  {
+   "id": "t1",
+   "titulo": "Um relacionamento sério",
+   "subtitulo": "",
+   "paragrafos": [
+    "Ela alterou o seu status de solteira para “Um relacionamento sério com Munhoz”. Viu aquilo? No canto da boca dele? Foi um sorriso. Sim, foi pequeno, eu sei. Discretíssimo, convenhamos. Mas estava ali.",
+    "Entre as andanças virtuais, Munhoz deparou-se com Gabriela. Ela tinha incríveis lábios carnudos, pele alva e irresistível, olhos amendoados – uma musa da literatura universal. Parecia ser da alta sociedade – as fotos denunciavam isso. Provavelmente, era a garota que esperava pelo príncipe encantado: neste caso, um atraente e experiente homem de 35 anos, inteligente, sem vícios. E gerente multinacional.",
+    "O problema era que a Gabriela não tinha as melhores intenções. Na verdade, ela era líder de uma quadrilha que aplicava todo o tipo de golpe. E entre as operações estava atrair e roubar homens ricos e solitários. Estava no ramo havia dois anos, e já aplicara o golpe a mais de uma dezena de vezes. Adquirira uma poderosa habilidade em identificar traumas e dores das presas e utilizava uma conversa macia para envolver os solitários.",
+    "E agora, após salivares ‘conversas virtuais’ e diversas ligações telefónicas, decidiram se conhecer. Encontram-se num restaurante famoso, onde Gabriela derramou todo o seu charme entre fala suave, gestos cuidadosamente alinhados, mãos arrumando o cabelo em intervalos regulares, sinalizando interesse romântico. Munhoz estava boquiaberto. Parecia um jovem apaixonado. Gabriela podia ver a intensidade emocional do homem lampejando brilhos intensos em cada olhar. A presa estava no ponto.",
+    "No entanto, para finalizar o plano com sucesso, Gabriela precisava que Munhoz a levasse para casa dele. Depois, era só seguir o cronograma estabelecido e mantido nos últimos dois anos. Pediria mais uma taça de vinho e, enquanto ele estivesse desprevenido, despejaria a dose cavalar de ansiolítico GHB na sua bebida. Após isso, teria horas à sua disposição para uma limpeza na casa da vítima: dinheiro, joias, cartões e aparelhos eletrónicos. Por isso Gabriela tinha pressa. A tensão pré-roubo mexia com as suas emoções. Após o jantar e duas taças de vinho disse:\n- Vamos, querido?\n- Para minha casa? – Perguntou Munhoz, com um sorriso abobado.\nGabriela seleccionou o seu sorriso mais arrebatador e exclamou:\n- Algo que diz que esta noite será perfeita!",
+    "No carro dele, Gabriela sentiu sono. Não se lembrava de ser tão fraca para bebidas. Decidiu tirar um cochilo durante o caminho até a casa de Munhoz. Acomodou-se no banco e adormeceu. No dia seguinte, Gabriela acordou … na sua cama. Não deveria estar em casa de Munhoz? A sua cabeça doía intensamente. Latejava como se facas vazassem o seu cérebro. Estranho! O que acontecera? Olhou ao redor. Tudo estava fora do lugar. Tudo. Mas o que…? Ela ainda precisaria de uns dois ou três minutos para perceber que Munhoz fizera uma limpeza a sua casa. E naquela mesma tarde, Munhoz apagou o seu perfil. Criou um novo com o nome Hipócrita. Dias depois, ele alteraria o seu status de “Solteiro” para “Num relacionamento sério com Cristina”."
+   ],
+   "fonte": "Juliano Martinz (2019) (Adaptado)"
+  }
+ ],
+ "observacoes_revisao": [
+  "Fonte: digitalização (CamScanner) de qualidade irregular, com a página 4 rodada. A transcrição foi feita visualmente: confirmar tudo contra o original em papel/PDF nítido.",
+  "A digitalização tem respostas circuladas à mão e a marca '2014'. Não são gabarito oficial e foram ignoradas. resposta_correta = null em todas as questões.",
+  "As questões têm 5 alternativas (A a E), como indica o cabeçalho, e a prova dura 90 minutos.",
+  "Palavras ou expressões sublinhadas no original estão marcadas com [[ ]] (Q3, Q4, Q6, Q8, Q18, Q23, Q24, Q25, Q26), identificadas visualmente na digitalização. Confirmar a extensão exata de cada sublinhado.",
+  "A prova não tem partes numeradas. Os nomes das partes (Compreensão e interpretação do texto; Língua e tipologia textual; Literatura; Correcção e estrutura da frase) foram acrescentados pelo app para o relatório de desempenho.",
+  "Texto, 4.º parágrafo: 'após salivares ‘conversas virtuais’' foi transcrito como visto; confirmar a palavra no original.",
+  "Q20: 'Algo me que diz que esta noite será perfeita!' como aparece no enunciado (o texto diz 'Algo que diz que...').",
+  "Q28: 'capítulos secções' sem vírgula, e Q39-E 'vinham', como no original.",
+  "Ligação às aulas: Q4, Q25, Q30 e Q40 (grau, tempos verbais, tipos de frase, voz passiva) ainda não têm aula; Q31 e Q34 (acentuação, ficha de leitura) pertencem a Fases futuras. Na revisão aparecem como 'Sem aula ainda'.",
+  "O texto refere um crime com drogagem (GHB); mantido, por fazer parte do original."
+ ],
+ "questoes": [
+  {
+   "numero": 1,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Em qual das seguintes opções se enquadra a crónica que acaba de ler?",
+   "alternativas": {
+    "A": "Dissertativa",
+    "B": "Descritiva",
+    "C": "Lírica/Poética",
+    "D": "Narrativa",
+    "E": "Humorística"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 2,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Na referida crónica o autor usou uma linguagem:",
+   "alternativas": {
+    "A": "Informal",
+    "B": "Formal",
+    "C": "Persuasiva",
+    "D": "Técnica",
+    "E": "Científica"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 3,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "No trecho “Viu [[aquilo]]?” a expressão sublinhada refere-se ao:",
+   "alternativas": {
+    "A": "Status de solteira",
+    "B": "Canto da boca",
+    "C": "Relacionamento",
+    "D": "Mudança do status",
+    "E": "Riso de Munhoz"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 4,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“[[Discretíssimo]], convenhamos”. A palavra sublinhada está no grau:",
+   "alternativas": {
+    "A": "Comparativo de superioridade",
+    "B": "Superlativo relativo de superioridade",
+    "C": "Normal",
+    "D": "Superlativo absoluto analítico",
+    "E": "Superlativo Absoluto Sintético"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 5,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "De acordo com o texto, o primeiro contacto entre Munhoz e Gabriela foi:",
+   "alternativas": {
+    "A": "No restaurante",
+    "B": "Virtual",
+    "C": "No carro",
+    "D": "Em casa de Munhoz",
+    "E": "Na rua"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 6,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Segundo o texto, Gabriela é “[[uma musa da literatura universal]]”. A expressão sublinhada quer dizer:",
+   "alternativas": {
+    "A": "Fonte de inspiração inesgotável",
+    "B": "Deusa grega que escreve poemas",
+    "C": "Figura divina e criativa",
+    "D": "Artista de reconhecimento mundial",
+    "E": "Obra de arte viva e pulsante"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 7,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "De acordo com o texto, os lábios, a pele e os olhos de Gabriela são caracterizados como:",
+   "alternativas": {
+    "A": "Delgados, morena, esticados",
+    "B": "Grossos, macia, redondos",
+    "C": "Caídos, sensível, puxados",
+    "D": "Volumosos, pura, oblíquos",
+    "E": "Estreitos, limpa, pequenos"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 8,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Parecia [[ser da alta sociedade]]” De acordo com o texto, a expressão sublinhada significa:",
+   "alternativas": {
+    "A": "Ser sociável",
+    "B": "Ser influenciadora",
+    "C": "Ser aristocrata",
+    "D": "Ser discreta",
+    "E": "Ser rica"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 9,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Esperava pelo príncipe encantado” Segundo o texto “príncipe encantado” é visto como alguém:",
+   "alternativas": {
+    "A": "Perfeito, gentil e dirigente",
+    "B": "Sedutor, jovem e íntegro",
+    "C": "Heróico, encantador e romântico",
+    "D": "Que resgata a donzela em perigo",
+    "E": "Capaz de resolver todos os problemas"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 10,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela não tinha as melhores intenções”. Quais eram efectivamente as intenções de Gabriela?",
+   "alternativas": {
+    "A": "Liderar uma perigosa quadrilha",
+    "B": "Explorar e aproveitar a vulnerabilidade de homens",
+    "C": "Traficar homens ricos e solitários",
+    "D": "Manipular e enganar Munhoz",
+    "E": "Assediar homens pela internet"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 11,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Por que razão Gabriela tinha tais intenções?",
+   "alternativas": {
+    "A": "Maldade",
+    "B": "Poder",
+    "C": "Ambição",
+    "D": "Vingança",
+    "E": "Inveja"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 12,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela estava no ramo havia dois anos.” Qual era habitualmente o modo de operar de Gabriela?",
+   "alternativas": {
+    "A": "Predação e sedução",
+    "B": "Mediação e diplomacia",
+    "C": "Exploração emocional",
+    "D": "Assédio e invasão",
+    "E": "Chantagem emocional"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 13,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Geralmente, os alvos de Gabriela eram homens:",
+   "alternativas": {
+    "A": "Inteligentes e experientes",
+    "B": "Românticos e criativos",
+    "C": "Ricos e solitários",
+    "D": "Conservadores e ricos",
+    "E": "Executivos e carentes"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 14,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "Eles “decidiram se conhecer” após:",
+   "alternativas": {
+    "A": "Dois anos de contacto virtual",
+    "B": "Trocarem sorrisos discretos",
+    "C": "Verem as fotos de perfil",
+    "D": "Muita comunicação virtual",
+    "E": "Efectuarem a alteração dos seus status"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 15,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "De acordo com o texto a expressão “A presa estava no ponto” significa que:",
+   "alternativas": {
+    "A": "Munhoz foi preso",
+    "B": "Era o momento de agir",
+    "C": "A situação estava no lugar",
+    "D": "Munhoz tinha sido conquistado",
+    "E": "Algo deixou Munhoz maravilhado e sem palavras"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 16,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“…para finalizar o plano com sucesso…” Gabriela necessitava:",
+   "alternativas": {
+    "A": "De embriagar Munhoz",
+    "B": "De seguir com o cronograma",
+    "C": "De agir com rapidez",
+    "D": "Que Munhoz a levasse para casa dele.",
+    "E": "De Conhecer pessoalmente Munhoz"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 17,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“… enquanto ele estivesse desprevenido …” o que Gabriela se propôs a fazer?",
+   "alternativas": {
+    "A": "Beber mais uma taça de vinho",
+    "B": "Limpar a casa da vítima",
+    "C": "Intoxicar excessivamente Munhoz",
+    "D": "Adormecer no banco do carro",
+    "E": "Esconder a tensão pré-roubo"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 18,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela tinha [[pressa]]” A palavra sublinhada transmite um sentimento de:",
+   "alternativas": {
+    "A": "Ansiedade",
+    "B": "Confiança",
+    "C": "Empatia",
+    "D": "Euforia",
+    "E": "Revolta"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 19,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela tinha pressa” porque:",
+   "alternativas": {
+    "A": "Pretendia roubar a sua vítima",
+    "B": "Estava sonolenta",
+    "C": "Pretendia ganhar tempo",
+    "D": "Estava sob efeito de álcool",
+    "E": "Estava muito tensa e emocionada"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 20,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Algo me que diz que esta noite será perfeita!” Gabriela fez este pronunciamento porque:",
+   "alternativas": {
+    "A": "Viu o sorriso bobo no rosto de Munhoz",
+    "B": "O seu plano estava a dar certo",
+    "C": "Dirigiam-se à casa de Munhoz",
+    "D": "Munhoz estava embriagado",
+    "E": "Tinha horas à sua disposição"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 21,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela ... não se lembrava de ser tão fraca para bebidas” porque:",
+   "alternativas": {
+    "A": "Bebeu duas taças de vinho.",
+    "B": "Se acomodou no banco do carro",
+    "C": "A sua cabeça doía intensamente",
+    "D": "Se sentiu sonolenta",
+    "E": "Adormeceu durante o percurso até a casa de Munhoz"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 22,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Gabriela olhou ao redor”. O que viu?",
+   "alternativas": {
+    "A": "Munhoz com o seu sorriso abobado",
+    "B": "Escuridão",
+    "C": "A sua casa desarrumada",
+    "D": "Munhoz com perfil apagado",
+    "E": "Munhoz com novo perfil"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 23,
+   "parte": "compreensao",
+   "texto_id": "t1",
+   "enunciado": "“Munhoz criou um novo perfil com o nome [[Hipócrita]]” O sinónimo da palavra sublinhada é:",
+   "alternativas": {
+    "A": "Orgulhoso",
+    "B": "Falso",
+    "C": "Reverente",
+    "D": "Vencedor",
+    "E": "Íntegro"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 24,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "“[[Dias depois]], ele alteraria o seu status de “solteiro”. A expressão sublinhada é:",
+   "alternativas": {
+    "A": "Sujeito",
+    "B": "Nome Predicativo do Sujeito",
+    "C": "Complemento Indirecto",
+    "D": "Complemento Directo",
+    "E": "Complemento Circunstancial de Tempo"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t1",
+   "explicacao": null
+  },
+  {
+   "numero": 25,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "“Ela ainda [[precisaria]] de uns dois ou três minutos” O verbo sublinhado está no:",
+   "alternativas": {
+    "A": "Pretérito perfeito do indicativo",
+    "B": "Presente do conjuntivo",
+    "C": "Condicional",
+    "D": "Pretérito imperfeito do indicativo",
+    "E": "Pretérito mais que perfeito do conjuntivo"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 26,
+   "parte": "lingua",
+   "texto_id": "t1",
+   "enunciado": "Na frase “Era a garota [[que esperava pelo príncipe encantado]]” a oração sublinhada é:",
+   "alternativas": {
+    "A": "Integrante",
+    "B": "Consecutiva",
+    "C": "Relativa",
+    "D": "Adversativa",
+    "E": "Concessiva"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 27,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "A que tipo de descrição corresponde o seguinte excerto: “A sala, inundada por uma luz amarelada que entrava pela janela, parecia um refúgio do mundo exterior. O cheiro de livro velho e madeira polida pairava no ar, enquanto o silêncio era interrompido apenas pelo tique-taque lento de um relógio de pêndulo na parede. As estantes de mogno, cheias de volumes de capa dura, davam um ar de sabedoria”",
+   "alternativas": {
+    "A": "Retrato",
+    "B": "Objecto",
+    "C": "Paisagem",
+    "D": "Ambiente",
+    "E": "Acção"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 28,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "O texto que visa estabelecer regras, normas, leis ou instruções e está estruturado em títulos, capítulos secções, artigos, parágrafos e alíneas é:",
+   "alternativas": {
+    "A": "Normativo",
+    "B": "Editorial",
+    "C": "Narrativo",
+    "D": "Lírico",
+    "E": "Didáctico"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 29,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "O texto que utiliza recursos da linguagem persuasiva para convencer o leitor a realizar a acção de comprar um produto é:",
+   "alternativas": {
+    "A": "Artigo Científico",
+    "B": "Descritivo",
+    "C": "Didáctico",
+    "D": "Expositivo",
+    "E": "Publicitário"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m1",
+   "topico_id": "m1-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 30,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "“E naquela mesma tarde, Munhoz apagou o seu perfil”. Esta é uma frase:",
+   "alternativas": {
+    "A": "Imperativa",
+    "B": "Exclamativa",
+    "C": "Declarativa",
+    "D": "Negativa",
+    "E": "Interrogativa"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 31,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "“Líder” é uma palavra:",
+   "alternativas": {
+    "A": "Grave",
+    "B": "Aguda",
+    "C": "Esdrúxula",
+    "D": "Oxítona",
+    "E": "Átona"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m4",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 32,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "Qual das expressões abaixo não é uma locução adverbial?",
+   "alternativas": {
+    "A": "De manhã",
+    "B": "Ao largo",
+    "C": "Por demais",
+    "D": "Em breve",
+    "E": "De acordo com"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 33,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "Todas as alternativas abaixo contêm uma locução prepositiva, EXCEPTO:",
+   "alternativas": {
+    "A": "Junto a",
+    "B": "Apesar de",
+    "C": "À tarde",
+    "D": "Abaixo de",
+    "E": "Ao redor de"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 34,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "Devem constar de uma ficha de leitura completa os seguintes elementos, EXCEPTO:",
+   "alternativas": {
+    "A": "Indicação do local onde a ficha foi produzida",
+    "B": "Identificação do autor da ficha",
+    "C": "Corpo ou texto com resumo das ideias do texto fonte",
+    "D": "Indicações sobre o tema da ficha",
+    "E": "Cabeçalho com referências bibliográficas"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m4",
+   "topico_id": null,
+   "explicacao": null
+  },
+  {
+   "numero": 35,
+   "parte": "lingua",
+   "texto_id": null,
+   "enunciado": "A frase que se segue contém dois espaços em branco: “As crianças ________ alegres, têm ________ de tristeza.” Escolha o par de palavras que melhor completa o sentido global da frase.",
+   "alternativas": {
+    "A": "porque ... meses",
+    "B": "ainda...ocasiões",
+    "C": "como ... dias",
+    "D": "embora ... momentos",
+    "E": "se bem...pedaços"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 36,
+   "parte": "literatura",
+   "texto_id": null,
+   "enunciado": "Qual dos seguintes escritores não é moçambicano?",
+   "alternativas": {
+    "A": "Mia Couto",
+    "B": "Fernando Pessoa",
+    "C": "Paulina Chiziane",
+    "D": "José Craveirinha",
+    "E": "Rui de Noronha"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m3",
+   "topico_id": "m3-t2",
+   "explicacao": null
+  },
+  {
+   "numero": 37,
+   "parte": "frase",
+   "texto_id": null,
+   "enunciado": "Seleccione a frase que está correctamente escrita:",
+   "alternativas": {
+    "A": "A Maria passou da cidade ontem.",
+    "B": "A Maria passou na cidade ontem.",
+    "C": "A Maria passou à cidade ontem.",
+    "D": "A Maria passou pela cidade ontem.",
+    "E": "A Maria passou em cidade ontem."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 38,
+   "parte": "frase",
+   "texto_id": null,
+   "enunciado": "A frase “Eu vou pedir à minha tia que tome conta de nós” contém uma oração:",
+   "alternativas": {
+    "A": "Relativa",
+    "B": "Causal",
+    "C": "Final",
+    "D": "Consecutiva",
+    "E": "Integrante"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t3",
+   "explicacao": null
+  },
+  {
+   "numero": 39,
+   "parte": "frase",
+   "texto_id": null,
+   "enunciado": "Indique a alternativa que contém a frase correcta:",
+   "alternativas": {
+    "A": "Cerca de três quartos da biodiversidade vegetal é usada para produção de biocombustíveis.",
+    "B": "A maioria dos manifestantes é desempregada e não tem nada a fazer.",
+    "C": "Um dos problemas dos estudantes universitários é a exiguidade na leitura.",
+    "D": "Um grande número de jogadores em Moçambique não pertence a nenhum clube.",
+    "E": "Depois da independência, grande parte dos jovens vinham do campo e eram analfabetos"
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": "m2-t4",
+   "explicacao": null
+  },
+  {
+   "numero": 40,
+   "parte": "frase",
+   "texto_id": null,
+   "enunciado": "Em qual das opções temos uma frase na voz passiva?",
+   "alternativas": {
+    "A": "A língua é bela.",
+    "B": "O mundo aprecia a beleza da língua.",
+    "C": "Apreciamos a beleza da língua.",
+    "D": "A beleza da língua encanta.",
+    "E": "A beleza da língua é apreciada pelos quatro cantos do mundo."
+   },
+   "resposta_correta": null,
+   "modulo_aula": "m2",
+   "topico_id": null,
+   "explicacao": null
+  }
+ ]
+}
