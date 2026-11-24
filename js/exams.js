@@ -16,11 +16,12 @@ DZ.exams = {
       const e = DZ.S.exames[x.id];
       const est = !e ? "Não iniciado" : e.estado === "concluido" ? "Concluído" : "Em andamento";
       const nota = e && e.melhor ? `${e.melhor.acertos}/${e.melhor.total} (${e.melhor.pct}%)` : e && e.estado === "concluido" ? "Gabarito pendente" : "—";
-      return `<button class="ex-cartao" data-ir="exame/${x.id}"><div class="ano">${x.ano}</div><div>${DZ.esc(x.disciplina)}</div><div class="peq suave">${DZ.esc(x.instituicao || "")}</div><div class="peq suave">${x.total_questoes} questões</div>
+      return `<button class="ex-cartao" data-ir="exame/${x.id}"><div class="ano">${x.ano}</div><div>${DZ.esc(x.titulo || x.disciplina)}</div><div class="peq suave">${DZ.esc(x.instituicao || "")}</div><div class="peq suave">${x.total_questoes} questões</div>
         <div style="margin-top:6px"><span class="tag ok">${est}</span></div><div class="peq" style="margin-top:6px">Melhor nota: ${nota}</div></button>`;
     }).join("") + "</div>");
   }
 };
+const fmtEnun = t => DZ.esc(t).replace(/\[\[(.+?)\]\]/g, "<u>$1</u>");   // [[texto]] = sublinhado do original
 const fmtTempo = ms => { const s = Math.ceil(ms / 1000), h = Math.floor(s / 3600), m = Math.floor(s % 3600 / 60); return (h ? h + ":" : "") + String(m).padStart(2, "0") + ":" + String(s % 60).padStart(2, "0"); };
 
 DZ.rotas.exame = async ([id], app) => {
@@ -73,7 +74,7 @@ DZ.rotas.exame = async ([id], app) => {
       <div class="contadores" style="margin:8px 0">${temGab && !sim ? `<span class="c">✔ ${ac}</span><span class="e">✘ ${er}</span>` : ""}<span class="suave">Respondidas: ${nResp()}/${total}</span></div>
       <span class="tag">${DZ.esc(parte.rotulo || parte.nome)}</span>${parte.instrucao ? `<p class="peq" style="margin:10px 0 0"><b>${DZ.esc(parte.instrucao)}</b></p>` : ""}
       ${qq.texto_id ? '<button class="btn sec" id="vt" style="margin:10px 0">📄 Ver texto</button>' : ""}
-      <p class="enunciado" style="margin-top:12px"><b>${n}.</b> ${DZ.esc(qq.enunciado)}</p>
+      <p class="enunciado" style="margin-top:12px"><b>${n}.</b> ${fmtEnun(qq.enunciado)}</p>
       <div id="ops">${Object.entries(qq.alternativas).map(([l, t]) => {
         let c = "opcao"; if (travada) { if (l === qq.resposta_correta) c += " certo"; else if (l === r) c += " errado"; } else if (l === r) c += " ativa";
         return `<button class="${c}" data-l="${l}"><b>${l}.</b> ${DZ.esc(t)}</button>`; }).join("")}</div>${fb}
@@ -166,7 +167,7 @@ DZ.rotas.exame = async ([id], app) => {
   function revisao() {
     app.innerHTML = barra("Questões erradas") + es.resultado.erradas.map(n => {
       const qq = q(n), r = es.respostas[n];
-      return `<div class="cartao"><p class="enunciado"><b>${n}.</b> ${DZ.esc(qq.enunciado)}</p>
+      return `<div class="cartao"><p class="enunciado"><b>${n}.</b> ${fmtEnun(qq.enunciado)}</p>
         <p class="peq">A sua resposta: <b style="color:var(--errado)">${r ? DZ.esc(r + ". " + qq.alternativas[r]) : "sem resposta"}</b></p>
         <p class="peq">Resposta correta: <b style="color:var(--certo)">${DZ.esc(qq.resposta_correta)}. ${DZ.esc(qq.alternativas[qq.resposta_correta])}</b></p>
         <div class="expl">${DZ.esc(qq.explicacao || "Explicação em breve.")}</div>
