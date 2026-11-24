@@ -28,9 +28,9 @@ DZ.rotas.config = async (a, app) => {
     <label for="c-hora">Hora do lembrete</label><input type="time" id="c-hora" value="${d.lembreteHora}">
     <div class="sw"><label for="c-som" style="margin:0">Sons de acerto e erro</label><input type="checkbox" id="c-som" ${d.sons ? "checked" : ""}></div></section>
   <section class="secao"><h2>Meu plano</h2><div class="cartao">
-    <p>Plano Maza: <b>${maza ? "Desbloqueado ✔" : "Bloqueado"}</b></p>
-    <p class="peq suave" style="margin:0">ID do aparelho</p><div class="id-aparelho">${DZ.unlock.obterId()}</div>
-    <div class="linha"><button class="btn sec" id="c-cid">Copiar ID</button><button class="btn sec" id="c-plano">Mudar de plano</button></div>
+    ${MAZA_GRATIS ? `<p>Plano atual: <b>${P.plano === "maza" ? "Maza" : "Básico"}</b><br><span class="peq suave">Os planos Básico e Maza são grátis.</span></p>`
+      : `<p>Plano Maza: <b>${maza ? "Desbloqueado ✔" : "Bloqueado"}</b></p><p class="peq suave" style="margin:0">ID do aparelho</p><div class="id-aparelho">${DZ.unlock.obterId()}</div>`}
+    <div class="linha">${MAZA_GRATIS ? "" : '<button class="btn sec" id="c-cid">Copiar ID</button>'}<button class="btn sec" id="c-plano">Mudar de plano</button></div>
     ${maza ? "" : '<label for="c-cod">Código de desbloqueio</label><input type="text" id="c-cod" placeholder="XXXX-XXXX" autocapitalize="characters" maxlength="12"><div class="erro" id="c-err" hidden></div><button class="btn" id="c-desb" style="margin-top:10px">Desbloquear</button><button class="btn sec" id="c-abrir">Como pagar e obter o código</button>'}</div></section>
   <section class="secao"><h2>Progresso</h2><div class="cartao">
     <p>Tópicos praticados: <b>${topFeitos}</b><br>Exercícios feitos (total): <b>${totalEx}</b><br>Exames feitos: <b>${hist.length}</b></p>
@@ -41,7 +41,7 @@ DZ.rotas.config = async (a, app) => {
     <button class="btn perigo" id="c-limpa">Limpar todos os dados</button></section>
   <section class="secao"><h2>Ajuda</h2>
     <details><summary>Como usar</summary><p>Escolha um tópico, leia a aula e faça os exercícios. No plano Maza, resolva exames na aba Exames Interativos e use a revisão para voltar às aulas certas.</p></details>
-    ${FAQ.map(f => `<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}
+    ${(MAZA_GRATIS ? [["Os planos são grátis?", "Sim. Os planos Básico e Maza são grátis. O Maza inclui, além das aulas, os Exames Interativos."]].concat(FAQ.filter((f, i) => i !== 1 && i !== 2)) : FAQ).map(f => `<details><summary>${f[0]}</summary><p>${f[1]}</p></details>`).join("")}
     <a class="btn" id="c-wa" target="_blank" rel="noopener" href="${DZ.unlock.linkWhatsApp("Olá! Preciso de ajuda com o Dondza Aqui. O meu ID: " + DZ.unlock.obterId())}">Falar com o suporte no WhatsApp</a></section>
   <section class="secao centro"><h2>Sobre</h2><p>Dondza Aqui · versão ${DZ.VERSAO}</p><p class="suave">Idealizado por Assane Filipe</p></section>`;
 
@@ -54,7 +54,7 @@ DZ.rotas.config = async (a, app) => {
   $("#c-lem").onchange = e => { d.lembrete = e.target.checked; guarda(); };
   $("#c-hora").onchange = e => { d.lembreteHora = e.target.value || "18:00"; guarda(); };
   $("#c-som").onchange = e => { d.sons = e.target.checked; guarda(); };
-  $("#c-cid").onclick = () => DZ.copiar(DZ.unlock.obterId());
+  if ($("#c-cid")) $("#c-cid").onclick = () => DZ.copiar(DZ.unlock.obterId());
   $("#c-plano").onclick = () => DZ.ir("planos");
   if ($("#c-desb")) {
     $("#c-abrir").onclick = () => DZ.unlock.abrir("maza", () => DZ.render());

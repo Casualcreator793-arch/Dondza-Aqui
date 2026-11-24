@@ -12,6 +12,11 @@ const TXT = {
     avancado: ["Avançado", "Quero afinar detalhes e treinar para o exame."]
   }
 };
+// ===== Plano Maza gratuito =====
+// true = o Maza é grátis (sem código, sem cadeado). Para voltar a cobrar, mude para false e publique.
+const MAZA_GRATIS = true;
+if (MAZA_GRATIS) DZ.unlock.estaDesbloqueado = () => true;   // todos têm acesso ao Maza
+
 const ICONE_CADEADO = '<svg class="cadeado" viewBox="0 0 24 24" fill="currentColor" aria-label="Bloqueado"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5zm-3 8V6a3 3 0 0 1 6 0v3H9z"/></svg>';
 
 // ---------- Utilitários ----------
@@ -112,7 +117,7 @@ DZ.rotas.planos = (a, app) => {
   app.innerHTML = (DZ.S.perfil.onboarding ? DZ.topo("Planos") : DZ.topo("Escolha o plano", "", true)) + `
     <div class="planos">
       <div class="plano" role="button" tabindex="0" id="pb"><h2>Básico</h2><div class="preco">Grátis</div><p class="suave peq">Aulas e exercícios dos Módulos 1 e 2</p></div>
-      <div class="plano maza" role="button" tabindex="0" id="pm">${mazaOk ? "" : ICONE_CADEADO}<h2>Maza</h2><div class="preco">${PLANOS.maza.preco}</div><p class="suave peq">Básico + Exames Interativos${mazaOk ? " (desbloqueado)" : ""}</p></div>
+      <div class="plano maza" role="button" tabindex="0" id="pm">${mazaOk ? "" : ICONE_CADEADO}<h2>Maza</h2><div class="preco">${MAZA_GRATIS ? "Grátis" : PLANOS.maza.preco}</div><p class="suave peq">Básico + Exames Interativos${mazaOk && !MAZA_GRATIS ? " (desbloqueado)" : ""}</p></div>
     </div><p class="suave peq centro">Pode mudar de plano mais tarde nas Configurações.</p>`;
   const entrar = pl => { DZ.S.perfil.plano = pl; DZ.S.perfil.onboarding = true; DZ.guardar(); DZ.ir("inicio"); };
   const ativa = (el, fn) => { el.onclick = fn; el.onkeydown = e => { if (e.key === "Enter" || e.key === " ") fn(); }; };
@@ -134,10 +139,11 @@ DZ.rotas.inicio = async (a, app) => {
     const nenhum = !Object.keys(DZ.S.progresso.topicos).length;
     if (nenhum) { const id = L.inicio_por_nivel[DZ.S.perfil.nivel || "basico"]; html += `<div class="cartao fundo-claro"><b>Ponto de partida recomendado</b><p class="peq" style="margin:4px 0 10px">${DZ.esc(DZ.lessons.achar(id).t.titulo)}</p><button class="btn" data-ir="topico/${id}">Começar agora</button></div>`; }
     html += DZ.lessons.lista();
-    if (!maza) html += `<div class="plano maza" role="button" tabindex="0" id="bm" style="min-height:0;text-align:left;padding-right:34px">${ICONE_CADEADO}<h3 style="margin:0">Plano Maza · ${PLANOS.maza.preco}</h3><p class="peq suave" style="margin:4px 0 0">Desbloqueie os Exames Interativos com correção e revisão guiada.</p></div>`;
+    if (!maza) html += `<div class="plano maza" role="button" tabindex="0" id="bm" style="min-height:0;text-align:left;padding-right:34px">${MAZA_GRATIS ? "" : ICONE_CADEADO}<h3 style="margin:0">Plano Maza · ${MAZA_GRATIS ? "Grátis" : PLANOS.maza.preco}</h3><p class="peq suave" style="margin:4px 0 0">${MAZA_GRATIS ? "Ative os Exames Interativos, com correção e revisão guiada." : "Desbloqueie os Exames Interativos com correção e revisão guiada."}</p></div>`;
     app.innerHTML = html;
     const bm = app.querySelector("#bm");
-    if (bm) bm.onclick = () => DZ.unlock.abrir("maza", () => { DZ.S.perfil.plano = "maza"; DZ.guardar(); DZ.ir("inicio/exames"); });
+    const ativar = () => { DZ.S.perfil.plano = "maza"; DZ.guardar(); DZ.ir("inicio/exames"); };
+    if (bm) { bm.onclick = () => MAZA_GRATIS ? ativar() : DZ.unlock.abrir("maza", ativar); bm.onkeydown = e => { if (e.key === "Enter" || e.key === " ") bm.onclick(); }; }
   } else { app.innerHTML = html; await DZ.exams.listaPara(app); }
 };
 
