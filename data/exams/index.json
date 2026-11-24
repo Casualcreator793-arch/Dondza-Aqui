@@ -18,5 +18,15 @@
   "ficheiro": "portugues-ujc-2021.json",
   "total_questoes": 40,
   "duracao_minutos": 120
+ },
+ {
+  "id": "portugues-i-uem-2026",
+  "ano": 2026,
+  "disciplina": "Língua Portuguesa",
+  "instituicao": "Universidade Eduardo Mondlane (UEM)",
+  "titulo": "Exame de Português I",
+  "ficheiro": "portugues-i-uem-2026.json",
+  "total_questoes": 40,
+  "duracao_minutos": 90
  }
 ]
