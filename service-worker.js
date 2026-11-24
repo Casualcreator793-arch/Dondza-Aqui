@@ -1,6 +1,6 @@
 /* Dondza Aqui — service worker (cache-first, 100% offline).
    Para publicar uma atualização: aumente o número em VERSAO_CACHE. */
-const VERSAO_CACHE = "dondza-v2";
+const VERSAO_CACHE = "dondza-v5";
 const FICHEIROS = [
   "./", "index.html", "manifest.webmanifest",
   "css/style.css",
