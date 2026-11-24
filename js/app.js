@@ -15,7 +15,19 @@ const TXT = {
 // ===== Plano Maza gratuito =====
 // true = o Maza é grátis (sem código, sem cadeado). Para voltar a cobrar, mude para false e publique.
 const MAZA_GRATIS = true;
-if (MAZA_GRATIS) DZ.unlock.estaDesbloqueado = () => true;   // todos têm acesso ao Maza
+const _estaDesbloqueado = DZ.unlock.estaDesbloqueado;
+if (MAZA_GRATIS) DZ.unlock.estaDesbloqueado = p => p === "maza" ? true : _estaDesbloqueado(p);   // todos têm acesso ao Maza
+
+// ===== Ativação do aplicativo (código só na 1.ª entrada) =====
+// O app é grátis. O código serve apenas para evitar que o ficheiro seja partilhado e revendido sem a sua permissão.
+// Cada código vale para um único aparelho (ID). Depois de ativado, o app não volta a pedir código.
+const ACESSO_PROTEGIDO = true;               // true = pede código na 1.ª entrada; false = desliga a proteção
+const LIBERAR_UTILIZADORES_ANTIGOS = true;   // true = quem já usava o app antes desta atualização entra sem código
+PLANOS.acesso = { nome: "Dondza Aqui", preco: "grátis" };   // usa o mesmo sistema de códigos do unlock.js
+DZ.acesso = { ok: () => !ACESSO_PROTEGIDO || _estaDesbloqueado("acesso") || !!DZ.S.acessoLegado };
+// Um backup de outro aparelho não pode trazer a liberação de utilizador antigo
+const _importar = DZ.importar;
+DZ.importar = t => { const leg = DZ.S.acessoLegado; _importar(t); DZ.S.acessoLegado = leg; DZ.guardar(); };
 
 const ICONE_CADEADO = '<svg class="cadeado" viewBox="0 0 24 24" fill="currentColor" aria-label="Bloqueado"><path d="M12 1a5 5 0 0 0-5 5v3H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-9a2 2 0 0 0-2-2h-1V6a5 5 0 0 0-5-5zm-3 8V6a3 3 0 0 1 6 0v3H9z"/></svg>';
 
@@ -61,6 +73,7 @@ document.addEventListener("click", e => {
 const ONB = ["boas-vindas", "nome", "disciplina", "nivel", "planos"];
 DZ.render = async () => {
   if (DZ.aoSair) { DZ.aoSair(); DZ.aoSair = null; }
+  if (!DZ.acesso.ok()) { window.scrollTo(0, 0); return DZ.gate(DZ.app()); }   // ecrã de ativação
   const p = location.hash.replace(/^#\/?/, "").split("/").filter(Boolean).map(decodeURIComponent);
   let nome = p[0] || (DZ.S.perfil.onboarding ? "inicio" : "boas-vindas");
   if (!DZ.S.perfil.onboarding && !ONB.includes(nome)) nome = "boas-vindas";
@@ -70,6 +83,30 @@ DZ.render = async () => {
   catch (e) { console.error(e); DZ.app().innerHTML = DZ.topo("Ocorreu um erro") + '<p>Não foi possível abrir este ecrã. Volte atrás e tente de novo.</p>'; }
 };
 window.addEventListener("hashchange", DZ.render);
+
+// ---------- Ecrã de ativação (1.ª entrada) ----------
+DZ.gate = app => {
+  const id = DZ.unlock.obterId();
+  const msg = "Olá! Quero ativar o Dondza Aqui. O meu ID do aparelho é: " + id;
+  app.innerHTML = `<div class="centro"><img class="logo" src="icons/icon-192.png" alt="Logótipo Dondza Aqui"><h1>Ativar o Dondza Aqui</h1>
+    <p class="suave">O aplicativo é gratuito. Para o ativar neste aparelho, envie o seu ID e receba um código. Só precisa de o fazer uma vez.</p></div>
+    <label>O seu ID do aparelho</label><div class="id-aparelho">${id}</div>
+    <div class="linha"><button class="btn sec" id="gc">Copiar ID</button><a class="btn sec" id="gw" target="_blank" rel="noopener" href="${DZ.unlock.linkWhatsApp(msg)}">Pedir código no WhatsApp</a></div>
+    <label for="gcod">Código de ativação</label>
+    <input type="text" id="gcod" placeholder="XXXX-XXXX" autocomplete="off" autocapitalize="characters" maxlength="12">
+    <div class="erro" id="gerr" hidden></div>
+    <button class="btn" id="gok" style="margin-top:12px">Ativar</button>
+    <p class="peq suave centro" style="margin-top:14px">Mudou de telemóvel ou reinstalou? O ID muda: envie o novo ID para receber um novo código.</p>`;
+  const $ = s => app.querySelector(s);
+  $("#gc").onclick = () => DZ.copiar(id);
+  $("#gcod").onkeydown = e => { if (e.key === "Enter") $("#gok").click(); };
+  $("#gok").onclick = async () => {
+    if (await DZ.unlock.desbloquear("acesso", $("#gcod").value)) {
+      DZ.toast("Aplicativo ativado!"); DZ.som("certo");
+      history.replaceState(null, "", "#/" + (DZ.S.perfil.onboarding ? "inicio" : "boas-vindas")); DZ.render();
+    } else { const e = $("#gerr"); e.hidden = false; e.textContent = "Código incorreto. Confirme se escreveu o código recebido para este ID (" + id + ")."; DZ.som("errado"); }
+  };
+};
 
 // ---------- Onboarding ----------
 DZ.rotas["boas-vindas"] = (a, app) => {
@@ -116,7 +153,7 @@ DZ.rotas.planos = (a, app) => {
   const mazaOk = DZ.unlock.estaDesbloqueado("maza");
   app.innerHTML = (DZ.S.perfil.onboarding ? DZ.topo("Planos") : DZ.topo("Escolha o plano", "", true)) + `
     <div class="planos">
-      <div class="plano" role="button" tabindex="0" id="pb"><h2>Básico</h2><div class="preco">Grátis</div><p class="suave peq">Aulas e exercícios dos Módulos 1 e 2</p></div>
+      <div class="plano" role="button" tabindex="0" id="pb"><h2>Básico</h2><div class="preco">Grátis</div><p class="suave peq">Aulas e exercícios de Língua Portuguesa</p></div>
       <div class="plano maza" role="button" tabindex="0" id="pm">${mazaOk ? "" : ICONE_CADEADO}<h2>Maza</h2><div class="preco">${MAZA_GRATIS ? "Grátis" : PLANOS.maza.preco}</div><p class="suave peq">Básico + Exames Interativos${mazaOk && !MAZA_GRATIS ? " (desbloqueado)" : ""}</p></div>
     </div><p class="suave peq centro">Pode mudar de plano mais tarde nas Configurações.</p>`;
   const entrar = pl => { DZ.S.perfil.plano = pl; DZ.S.perfil.onboarding = true; DZ.guardar(); DZ.ir("inicio"); };
@@ -158,6 +195,8 @@ DZ.lembrete = () => {
 (async () => {
   DZ.aplicarTema();
   await DZ.unlock.verificarTodos();
+  // Quem já usava o app antes da proteção entra sem código (desligue em LIBERAR_UTILIZADORES_ANTIGOS)
+  if (ACESSO_PROTEGIDO && LIBERAR_UTILIZADORES_ANTIGOS && !_estaDesbloqueado("acesso") && DZ.S.perfil.onboarding && !DZ.S.acessoLegado) { DZ.S.acessoLegado = true; DZ.guardar(); }
   if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("service-worker.js").catch(() => {});
   DZ.lembrete(); DZ.render();
 })();
